@@ -50,22 +50,26 @@ header {
     color: #0065FC;
 }
 
-
-/* corps principal: hébergement */
+/* titres du site */
 
 .hebergement{
     padding-left: 50px;
+    padding-bottom: 20px;
 }
-
-.location {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border
-}
-
 
 /* recherche bar */
+
+.wrap {
+    width: 474px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .search {
     display: flex;
@@ -75,19 +79,33 @@ header {
 button{
     background-color: #0065FC;
     color: white;
-    width: 135px;
-    height: 30px;
+    width: 140px;
+    height: 50px;
     border-radius: 0 10px 10px 0;
     border: 0;
 }
 
-.pig-gps{
+
+.pic-gps {
     width: 50px;
     height: 50px;
     background-color: #F2F2F2;
+    border-radius: 20px 0 0 20px;
 }
 
-/* partie logements */
+.pic-gps i{
+    padding: 15px 20px 15px;
+}
+
+
+/* filtres */
+/* info */
+.info{
+    padding-left: 50px;
+}
+
+
+/* corps principal: hébergement */
 
 .logement{
     display: flex;
@@ -98,6 +116,9 @@ button{
   
   .logement h2{
     margin-left: 40px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-size: 22px;
   }
   
   
@@ -134,7 +155,7 @@ button{
   }
     
   
-  /* partie populaire */
+  /* partie logement populaire */
   
   .popular {
     width:420px;
@@ -157,13 +178,20 @@ button{
     height: 145px;
     background-color: white;
     border-radius: 20px;
-    padding-bottom: 30px;
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
+
+  .case2 img {
+    width: 127px;
+    height: 135px;
+    border-radius: 20px 0 0 20px;
+    padding: 5px 5px 5px;
+
+}
 
 /* footer */
 
