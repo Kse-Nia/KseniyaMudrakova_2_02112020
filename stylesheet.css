@@ -16,9 +16,7 @@ a{
 /* header */
 header {
     height: 80px;
-    padding-bottom: 50px;
-    
-    
+    padding-bottom: 50px;    
 }
 
 .logo {
@@ -210,27 +208,49 @@ button{
 
 /* barre filtres */
 
-.filtres{
-    width: 990px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 55px;
-    background-color: grey;
-}
-
-.filter{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.filtres h3{
-    padding: 20px 30px 20px 10px;
-}
-
-.filtration li{
+.filtration{
     display: flex;
     flex-direction: row;
-}
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .filtration h3{
+    padding: 20px 40px 20px;
+  }
+  
+  .bulle1{
+    width: 195px;
+    height: 47px;
+    background-color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+    padding-right: 25px;
+  }
+  
+  .icon_filtre{
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 30px;
+  }
+  
+  
+  .bulle2{
+    width: 150px;
+    height: 50px;
+    background-color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+  }
+  
+  .bulle3{
+    width: 180px;
+    height: 50px;
+    background-color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+  }
 
 /* footer */
 
