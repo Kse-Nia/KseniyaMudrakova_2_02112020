@@ -99,6 +99,7 @@ button{
 
 
 /* filtres */
+
 /* info */
 .info{
     padding-left: 50px;
@@ -146,14 +147,18 @@ button{
     padding-bottom: 30px;
   }
 
+
+
 .case1 img {
       width: 235px;
       height: 115px;
       border-radius: 20px 20px 0 0;
       padding: 5px 5px 10px;
 
+
   }
-    
+  
+  
   
   /* partie logement populaire */
   
@@ -181,10 +186,22 @@ button{
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    
   }
 
+  .prices{
+    display: flex;
+    flex-flow: column;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    
+}
   .case2 img {
     width: 127px;
     height: 135px;
