@@ -131,27 +131,25 @@ button{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    
   }
   
   .case1{
     width: 245px;
     height: 200px;
+    padding: 5px 5px 10px;
     background-color: white;
     border-radius: 20px;
     padding-bottom: 30px;
   }
 
-
-
+  
 .case1 img {
       width: 235px;
       height: 115px;
+      object-fit: cover;
       border-radius: 20px 20px 0 0;
-      padding: 5px 5px 10px;
-
-
   }
-  
   
   
   /* partie logement populaire */
@@ -202,21 +200,24 @@ button{
     height: 135px;
     border-radius: 20px 0 0 20px;
     padding: 5px 5px 5px;
+    overflow: hidden;
 
 }
 
 
-/* barre filtres */
+/* barre de filtration */
 
 .filtration{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    margin-bottom: 40px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
   }
   
   .filtration h3{
-    padding: 20px 40px 20px;
+    padding: 20px 55px 20px;
   }
   
   .bulle1{
@@ -251,6 +252,15 @@ button{
     border: 3px solid #F2F2F2;
     border-radius: 30px;
   }
+
+  .bulle4{
+    width: px;
+    height: 50px;
+    background-color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+  }
+
 
 /* footer */
 
