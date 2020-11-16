@@ -214,6 +214,7 @@ button{
     background-color: white;
     border-radius: 20px;
     padding-bottom: 30px;
+    filter: drop-shadow(4px 5px 2px #a9a9ac);
   }
 
   
@@ -250,6 +251,7 @@ button{
   background-color: white;
   border-radius: 20px;
   display: flex;
+  filter: drop-shadow(4px 5px 2px #a9a9ac);
 }
 
 .case2 img {
@@ -277,6 +279,10 @@ button{
 
 .activity {
   padding-top: 65px;
+}
+
+.activity h3{
+  padding-bottom: ;
 }
 
 .gallery3{
