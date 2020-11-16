@@ -7,6 +7,11 @@
     font-family: 'Raleway';
 }
 
+main{
+  overflow: scroll;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
 
 a{
     text-decoration: none;
@@ -47,7 +52,7 @@ header {
 
 /* titres du site */
 
-.hebergement{
+.hebergement h1, {
     padding-left: 50px;
     padding-bottom: 20px;
 }
@@ -76,7 +81,7 @@ button{
 }
 
 .city-search{
-  border-color: #F2F2F2;
+  border: 2px solid #F2F2F2;
 }
 button{
     background-color: #0065FC;
@@ -98,7 +103,7 @@ button{
 }
 
 .pic-gps i{
-    padding: 10px 15px 10px;
+    padding: 15px 20px 15px;
 }
 
 
@@ -109,6 +114,65 @@ button{
 }
 
 
+/* barre de filtration */
+
+.filtration{
+  width: 931px;
+  margin: 20px 55px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+  .filtration h3{
+    padding-right: 33px;
+  }
+
+  .icon_filtre{
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .bulle1{
+    width: 193px;
+    height: 47px;
+    background-color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+  }
+  
+  
+  .bulle2{
+    width: 150px;
+    height: 50px;
+    background-color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+  }
+  
+  .bulle3{
+    width: 183px;
+    height: 50px;
+    background-color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+  }
+
+  .bulle4{
+    width: 243px;
+    height: 50px;
+    background-color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+  }
+
+  
 /* Logement Partie 1 */
 
 .logement{
@@ -209,65 +273,44 @@ button{
 
 }
 
+/* Activités à Marseille */
 
-/* barre de filtration */
-
-.filtration{
-  margin: 20px 55px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+.activity {
+  padding-left: 55px;
+  padding-top: 65px;
 }
 
-  .filtration h3{
-    padding-right: 33px;
-  }
+.gallery3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-  .icon_filtre{
-    width: 50px;
-    height: 50px;
-    background-color: #DEEBFF;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-  }
+.div_haute{
+  width: 303px;
+  height: 447px;
+  filter: drop-shadow(5px 10px 4px #a9a9ac);
   
-  .bulle1{
-    width: 195px;
-    height: 47px;
-    background-color:white;
-    border: 3px solid #F2F2F2;
-    border-radius: 30px;
-    padding-right: 25px;
-  }
-  
-  
-  .bulle2{
-    width: 150px;
-    height: 50px;
-    background-color:white;
-    border: 3px solid #F2F2F2;
-    border-radius: 30px;
-  }
-  
-  .bulle3{
-    width: 180px;
-    height: 50px;
-    background-color:white;
-    border: 3px solid #F2F2F2;
-    border-radius: 30px;
-  }
+}
 
-  .bulle4{
-    width: 180px;
-    height: 50px;
-    background-color:white;
-    border: 3px solid #F2F2F2;
-    border-radius: 30px;
-  }
+.div_haute>img{
+  height: 390px;
+  width: 303px;
+  border-radius: 20px;
+  object-fit: cover;
+}
 
+.div_basse{
+  width: 303px;
+  height: 235px;
+  filter: drop-shadow(5px 10px 4px #a9a9ac);
+}
+
+.div_basse>img{
+  width: 303px;
+  height: 180px;
+  object-fit: cover;
+}
 
 /* footer */
 
