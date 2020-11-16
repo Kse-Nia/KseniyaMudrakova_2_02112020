@@ -7,9 +7,13 @@
     font-family: 'Raleway';
 }
 
+body{
+  padding-bottom: 218px;
+}
+
 main{
   overflow: scroll;
-  margin-bottom: 60px;
+  margin-left: 55px;;
   overflow: hidden;
 }
 
@@ -27,7 +31,6 @@ header {
 .logo {
     float: left;
     width: 100px;
-    padding-left: 55px;
     padding-top: 50px;
 }
 
@@ -53,7 +56,6 @@ header {
 /* titres du site */
 
 .hebergement h1, {
-    padding-left: 50px;
     padding-bottom: 20px;
 }
 
@@ -62,7 +64,7 @@ header {
 .wrap {
     width: 474px;
     height: 50px;
-    margin-left: 50px;
+    margin-top: 20px;
 }
 
 form{
@@ -110,7 +112,7 @@ button{
 
 /* info */
 .info{
-    padding-left: 50px;
+ 
 }
 
 
@@ -118,7 +120,7 @@ button{
 
 .filtration{
   width: 931px;
-  margin: 20px 55px;
+  margin: 20px 0 37px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -146,7 +148,6 @@ button{
     border: 3px solid #F2F2F2;
     border-radius: 30px;
   }
-  
   
   .bulle2{
     width: 150px;
@@ -178,7 +179,6 @@ button{
 .logement{
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
   }
   
   
@@ -276,7 +276,6 @@ button{
 /* Activités à Marseille */
 
 .activity {
-  padding-left: 55px;
   padding-top: 65px;
 }
 
@@ -317,7 +316,7 @@ button{
 footer {
     background-color: #F2F2F2;
     width: 100vw;
-    height: 220px;
+    height: 218px;
     position: fixed;
     left: 0;
     bottom: 0;
