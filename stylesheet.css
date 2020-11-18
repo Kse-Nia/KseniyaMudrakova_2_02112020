@@ -55,16 +55,19 @@ header {
 
 /* titres du site */
 
-.hebergement h1, {
-    padding-bottom: 20px;
+.hebergement h1 {
+    padding-bottom: 16px;
+}
+
+.hebergement p{
+  margin-bottom: 19px;
 }
 
 /* Bar de recherche */
 
 .wrap {
-    width: 474px;
+    width: 421px;
     height: 50px;
-    margin-top: 20px;
 }
 
 form{
@@ -83,17 +86,24 @@ button{
 }
 
 .city-search{
+  width: 235px;
   border: 2px solid #F2F2F2;
+}
+
+input::placeholder{
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 16px;
 }
 button{
     background-color: #0065FC;
     color: white;
-    width: 140px;
+    width: 133px;
     height: 50px;
     border-radius: 0 10px 10px 0;
     border: 0;
 }
-
 
 .pic-gps {
     width: 50px;
@@ -112,9 +122,21 @@ button{
 
 /* info */
 .info{
- 
+ margin-top: 37px;
+ display: flex;
+ flex-direction: row;
 }
 
+.icon_info{
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    border-radius: 50%;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* barre de filtration */
 
@@ -134,11 +156,11 @@ button{
     width: 50px;
     height: 50px;
     background-color: #DEEBFF;
-    border-radius: 30px;
+    line-height: 16px;
+    border-radius: 50%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    text-align: center;
+    justify-content: center;
   }
   
   .bulle1{
@@ -147,6 +169,14 @@ button{
     background-color:white;
     border: 3px solid #F2F2F2;
     border-radius: 30px;
+  }
+
+  .bulle1.bulle2.bulle3.bulle4>p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
   }
   
   .bulle2{
@@ -191,8 +221,8 @@ button{
   
   
   .marseille {
-    width:820px;
-    height: 620px;
+    width:878px;
+    height: 623px;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-right: 40px;
@@ -229,8 +259,8 @@ button{
 /* Logement Partie 2 */
   
 .popular {
-  width:420px;
-  height: 625px;
+  width:417px;
+  height: 623px;
   background-color: #F2F2F2;
   border-radius: 20px;
 }
@@ -245,7 +275,7 @@ button{
 }
 
 .case2{
-  width: 345px;
+  width: 343px;
   height: 145px;
   padding: 5px 5px 5px;
   background-color: white;
@@ -282,7 +312,8 @@ button{
 }
 
 .activity h3{
-  padding-bottom: ;
+  padding-top:  23px ;
+  padding-left: 19px;
 }
 
 .gallery3{
@@ -296,6 +327,10 @@ button{
   height: 447px;
   filter: drop-shadow(5px 10px 4px #a9a9ac);
   
+}
+
+.div_haute>p{
+  padding-top: 23px;
 }
 
 .div_haute>img{
