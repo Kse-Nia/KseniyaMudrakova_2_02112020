@@ -31,7 +31,7 @@ header {
 .logo {
     float: left;
     width: 100px;
-    padding-top: 50px;
+    padding-top: 53px;
 }
 
 .contenu-header {
@@ -39,6 +39,10 @@ header {
     float: right;
 }
 
+.sign{
+  color: #0065FC;
+  font-weight: 900;
+}
 .contenu-header ul{
     padding: 50px 80px 0 0;
     display: flex;
@@ -141,15 +145,20 @@ button{
 /* barre de filtration */
 
 .filtration{
-  width: 931px;
+  width: 930px;
   margin: 20px 0 37px;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
+
 }
 
   .filtration h3{
     padding-right: 33px;
+  }
+
+  .filtername{
+    padding-left: 15px;
   }
 
   .icon_filtre{
@@ -161,38 +170,43 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    float: left;
   }
-  
+
   .bulle1{
     width: 193px;
     height: 47px;
+    margin-right: 25px;
     background-color:white;
     border: 3px solid #F2F2F2;
     border-radius: 30px;
-  }
-
-  .bulle1.bulle2.bulle3.bulle4>p{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+    align-items: baseline;
   }
   
   .bulle2{
     width: 150px;
     height: 50px;
+    margin-right: 25px;
     background-color:white;
     border: 3px solid #F2F2F2;
     border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
   
   .bulle3{
     width: 183px;
     height: 50px;
+    margin-right: 25px;
     background-color:white;
     border: 3px solid #F2F2F2;
     border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
 
   .bulle4{
@@ -201,6 +215,9 @@ button{
     background-color:white;
     border: 3px solid #F2F2F2;
     border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
 
   
@@ -212,17 +229,16 @@ button{
   }
   
   
-  .logement h2{
-    margin-left: 40px;
-    margin-top: 45px;
-    margin-bottom: 25px;
+  .logement,h2{
+    padding: 46px 0 23px;
     font-size: 22px;
   }
   
   
   .marseille {
-    width:878px;
-    height: 623px;
+    width:875px;
+    height: 625px;
+    padding: 0 40px 0;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-right: 40px;
@@ -230,6 +246,7 @@ button{
   
   .gallery1 {
     height: 480px;
+    padding: 23px 10px 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -245,24 +262,45 @@ button{
     border-radius: 20px;
     padding-bottom: 30px;
     filter: drop-shadow(4px 5px 2px #a9a9ac);
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 12px;
   }
 
-  
 .case1 img {
       width: 235px;
       height: 115px;
+      padding: 5px;
       object-fit: cover;
       border-radius: 20px 20px 0 0;
   }
-  
+
+.more{
+  padding-bottom: 50px;
+}
   
 /* Logement Partie 2 */
   
 .popular {
-  width:417px;
-  height: 623px;
+  width:420px;
+  height: 625px;
   background-color: #F2F2F2;
   border-radius: 20px;
+}
+
+.toplist>h2{
+  padding: 46px 119px 26px 37px;
+}
+
+.toplist{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.grow{
+  width: 25px;
 }
 
 .gallery2 {
@@ -277,21 +315,24 @@ button{
 .case2{
   width: 343px;
   height: 145px;
-  padding: 5px 5px 5px;
   background-color: white;
   border-radius: 20px;
   display: flex;
-  filter: drop-shadow(4px 5px 2px #a9a9ac);
+  filter: drop-shadow(4px 1px 5px #a9a9ac);
 }
 
 .case2 img {
   width: 127px;
   height: 135px;
+  padding: 5px;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
 }
 
 .prices{
+  width: 144px;
+  padding-top: 18px;
+  padding-right: 20px;
   display: flex;
   flex-flow: column;
   padding-top: 20px;
