@@ -35,7 +35,7 @@ header {
 }
 
 .contenu-header {
-    width: 480px;
+    width: 485px;
     float: right;
 }
 
@@ -48,6 +48,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+li{
+  margin-left: 28px;
+  margin-right: 22px;
 }
 
 .contenu-header li>a:hover{
@@ -115,6 +120,7 @@ button{
     display: flex;
     align-items: center;
     background-color: #F2F2F2;
+    color:black;
     border-radius: 20px 0 0 20px;
 }
 
@@ -171,6 +177,7 @@ button{
     align-items: center;
     justify-content: center;
     float: left;
+    color:#0065FC;
   }
 
   .bulle1{
@@ -343,6 +350,7 @@ button{
 .stars{
   display: flex;
   flex-direction: row;
+  color:#0065FC;
 
 }
 
