@@ -13,7 +13,8 @@ body{
 
 main{
   overflow: scroll;
-  margin-left: 55px;;
+  margin-left: 55px;
+  margin-bottom: 60px;
   overflow: hidden;
 }
 
@@ -35,30 +36,32 @@ header {
 }
 
 .contenu-header {
-    width: 485px;
-    float: right;
+  float: right;
+  width: 480px;
+  height: 80px;
+  box-sizing: border-box;
+  margin-right: 77px;
 }
 
-.sign{
-  color: #0065FC;
-  font-weight: 900;
-}
-.contenu-header ul{
-    padding: 50px 80px 0 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  
 }
 
 li{
-  margin-left: 28px;
-  margin-right: 22px;
+  padding: 50px 24px 0 27px; 
 }
 
 .contenu-header li>a:hover{
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
-    padding-top: 48px;
+  border-top: 10px blue solid;
+  padding: 50px 24px 0 27px;
+}
+
+a{
+  text-decoration: none;
 }
 
 
@@ -132,6 +135,8 @@ button{
 
 /* info */
 .info{
+  width: 100vw;
+  height: 24px;
  margin-top: 37px;
  display: flex;
  flex-direction: row;
@@ -143,9 +148,14 @@ button{
     margin-right: 12px;
     border-radius: 50%;
     border: 1px solid #F2F2F2;
+    color:#0065FC;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.info>p{
+  vertical-align: middle;
 }
 
 /* barre de filtration */
@@ -165,11 +175,15 @@ button{
 
   .filtername{
     padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
+  
 
   .icon_filtre{
-    width: 50px;
-    height: 50px;
+    width: 53px;
+    height: 53px;
     background-color: #DEEBFF;
     line-height: 16px;
     border-radius: 50%;
@@ -235,12 +249,10 @@ button{
     flex-direction: row;
   }
   
-  
   .logement,h2{
     padding: 46px 0 23px;
     font-size: 22px;
   }
-  
   
   .marseille {
     width:875px;
@@ -253,14 +265,18 @@ button{
   
   .gallery1 {
     height: 480px;
-    padding: 23px 10px 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
+    box-sizing: border-box;
   }
   
+.photo_row1{
+  display: flex;
+  flex-direction: row;
+}
+
+.photo_row2{
+  display: flex;
+  flex-direction: row;
+}
   .case1{
     width: 245px;
     height: 200px;
@@ -306,10 +322,6 @@ button{
   align-items: baseline;
 }
 
-.grow{
-  width: 25px;
-}
-
 .gallery2 {
   height: 545px;
   width: 100%;
@@ -320,32 +332,32 @@ button{
 }
 
 .case2{
-  width: 343px;
+  width: 344px;
   height: 145px;
   background-color: white;
   border-radius: 20px;
+  box-sizing: content-box;
   display: flex;
   filter: drop-shadow(4px 1px 5px #a9a9ac);
 }
 
-.case2 img {
+.border>img{
   width: 127px;
-  height: 135px;
+  height: 134px;
   padding: 5px;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
 }
 
 .prices{
-  width: 144px;
+  width: 176px;
+  height: 145px;
   padding-top: 18px;
   padding-right: 20px;
   display: flex;
   flex-flow: column;
-  padding-top: 20px;
   padding-left: 20px;
 }
-
 
 .stars{
   display: flex;
@@ -354,15 +366,14 @@ button{
 
 }
 
-/* Activités à Marseille */
+/* Section Acitivés */
 
 .activity {
   padding-top: 65px;
 }
 
-.activity h3{
-  padding-top:  23px ;
-  padding-left: 19px;
+.activity>h3{
+  padding-bottom: 28px;
 }
 
 .gallery3{
@@ -371,38 +382,56 @@ button{
   justify-content: space-around;
 }
 
-.div_haute{
-  width: 303px;
-  height: 447px;
-  filter: drop-shadow(5px 10px 4px #a9a9ac);
-  
+.activ_marseille{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-.div_haute>p{
-  padding-top: 23px;
-}
-
-.div_haute>img{
-  height: 390px;
+.casehaute{
   width: 303px;
+  height: 445px;
   border-radius: 20px;
+  background-color: white;
+  filter: drop-shadow(4px 1px 5px #a9a9ac);
+  display: flex;
+  flex-direction: column;
+}
+
+.casehaute>p{
+  padding-top: 22px;
+  padding-left: 15px;
+}
+
+.casebasse>p{
+  padding-top: 23px;
+  padding-left: 20px;
+}
+
+.pichaute{
+  width: 303px;
+  height: 390px;
+  border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 
-.div_basse{
-  width: 303px;
+.casebasse{
+  width: 302px;
   height: 235px;
-  filter: drop-shadow(5px 10px 4px #a9a9ac);
+  background-color: white;
+  border-radius: 20px;
+  filter: drop-shadow(4px 1px 5px #a9a9ac);
 }
 
-.div_basse>img{
-  width: 303px;
+.picbasse{
+  width: 302px;
   height: 180px;
+  border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
+
+
 
 /* footer */
-
 footer {
     background-color: #F2F2F2;
     width: 100vw;
