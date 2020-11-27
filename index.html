@@ -14,18 +14,21 @@
 </head>
 
 <body>
-    <main>
-        <header>
-            <img class="logo" src="./Media/logo/Reservia@3x.png" alt="logo du site" />
-            <nav class="contenu-header">
-                <ul class="head">
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
-                    <li><a class="sign" href="#">S'inscrire</a></li>
-                </ul>
-            </nav>
-        </header>
 
+    <header>
+        <img class="logo" src="./Media/logo/Reservia@3x.png" alt="logo du site" />
+        <nav>
+            <ul class="head">
+                <li><a href="#">Hébergements</a></li>
+                <li><a href="#">Activités</a></li>
+                <li><a class="sign" href="#">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--début main-->
+
+    <main>
         <div class="hebergement">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
@@ -92,7 +95,7 @@
                         <div class="case_1">
                             <img src="./Media/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
+                            <div class="prices1">
                                 <h4>Auberge la Cannebière</h4>
                                 <p>Nuit à partir de <strong>25€</strong></p>
                                 <div class="stars">
@@ -108,7 +111,7 @@
                         <div class="case_1">
                             <img src="./Media/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
+                            <div class="prices1">
                                 <h4>Hôtel du port</h4>
                                 <p>Nuit à partir de <strong>52€</strong></p>
                                 <div class="stars">
@@ -124,7 +127,7 @@
                         <div class="case_1">
                             <img src="./Media/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
+                            <div class="prices1">
                                 <h4>Hôtel Les mouettes</h4>
                                 <p>Nuit à partir de <strong>76€</strong></p>
                                 <div class="stars">
@@ -142,7 +145,7 @@
                         <div class="case_1">
                             <img src="./Media/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
+                            <div class="prices1">
                                 <h4>Hôtel de la mer</h4>
                                 <p>Nuit à partir de <strong>46€</strong></p>
                                 <div class="stars">
@@ -158,7 +161,7 @@
                         <div class="case_1">
                             <img src="./Media/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
+                            <div class="prices1">
                                 <h4>Auberge Le Panier</h4>
                                 <p>Nuit à partir de <strong>23€</strong></p>
                                 <div class="stars">
@@ -174,7 +177,7 @@
                         <div class="case_1">
                             <img src="./Media/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
+                            <div class="prices1">
                                 <h4>Hôtel chez Amina</h4>
                                 <p>Nuit à partir de <strong>96€</strong></p>
                                 <div class="stars">
@@ -203,8 +206,8 @@
                         <div class="case2">
                             <img src="./Media/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
-                                <h4>Auberge la Cannebière</h4>
+                            <div class="prices2">
+                                <h4>Hôtel Le soleil du matin</h4>
                                 <p>Nuit à partir de <strong>25€</strong></p>
                                 <div class="stars">
                                     <i id="blue" class="fas fa-star"></i>
@@ -219,8 +222,8 @@
                         <div class="case2">
                             <img src="./Media/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
-                                <h4>Auberge la Cannebière</h4>
+                            <div class="prices2">
+                                <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                                 <p>Nuit à partir de <strong>25€</strong></p>
                                 <div class="stars">
                                     <i id="blue" class="fas fa-star"></i>
@@ -235,8 +238,8 @@
                         <div class="case2">
                             <img src="./Media/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                 alt="photo de la chambre" />
-                            <div class="prices">
-                                <h4>Auberge la Cannebière</h4>
+                            <div class="prices2">
+                                <h4>Hôtel Tout bleu et Blanc</h4>
                                 <p>Nuit à partir de <strong>25€</strong></p>
                                 <div class="stars">
                                     <i id="blue" class="fas fa-star"></i>
@@ -266,18 +269,18 @@
 
                 <section class="activ_marseille">
                     <div class="casebasse">
-                        <div class="case1">
+                        <div class="case-1">
                             <img class="picbasse1"
                                 src="./Media/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                                 alt="photo paysage marseillais" />
                             <p class="titre_case">Fort de Pomègue</p>
                         </div>
                         <div class="casebasse">
-                            <div class="case2">
+                            <div class="case-2">
                                 <img class="picbasse2"
                                     src="./Media/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                                     alt="photo paysage marseillais" />
-                                <p class="titre_case">Fort de Pomègue</p>
+                                <p class="titre_case">Îles du Frioul</p>
                             </div>
                         </div>
                     </div>
@@ -291,49 +294,49 @@
 
                 <div class="activ_marseille">
                     <div class="casebasse">
-                        <div class="case3">
+                        <div class="case-3">
                             <img class="picbasse3"
                                 src="./Media/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                 alt="photo paysage marseillais" />
                             <p class="titre_case">Notre-Dame-de-la-Garde</p>
                         </div>
                     </div>
-                    <div class="case4">
+                    <div class="case-4">
                         <img class="picbasse4" src="./Media/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                             alt="photo paysage marseillais" />
                         <p class="titre_case">Parc Longchamp</p>
                     </div>
                 </div>
         </section>
-
-        <!--footer-->
-        <footer>
-            <div class="bloc-footer">
-                <h3>A propos</h3>
-                <ul class="liste">
-                    <li><a href="#">Fonctionnement du site</a></li>
-                    <li><a href="#">Conditions générales de vente</a></li>
-                    <li><a href="#">Données et confidentialité</a></li>
-                </ul>
-            </div>
-
-            <div class="bloc-footer">
-                <h3>Nos hébergements</h3>
-                <ul class="liste">
-                    <li><a href="#">Charte qualité</a></li>
-                    <li><a href="#">Soumettre votre hôtel</a></li>
-                </ul>
-            </div>
-
-            <div class="bloc-footer">
-                <h3>Assistance</h3>
-                <ul class="liste">
-                    <li><a href="#">Centre d'aide</a></li>
-                    <li><a href="#">Nous contacter</a></li>
-                </ul>
-            </div>
-        </footer>
     </main>
+    <!--footer-->
+    <footer>
+        <div class="bloc-footer">
+            <h3>A propos</h3>
+            <ul class="liste">
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+        </div>
+
+        <div class="bloc-footer">
+            <h3>Nos hébergements</h3>
+            <ul class="liste">
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </div>
+
+        <div class="bloc-footer">
+            <h3>Assistance</h3>
+            <ul class="liste">
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </div>
+    </footer>
+
 
 </body>
 

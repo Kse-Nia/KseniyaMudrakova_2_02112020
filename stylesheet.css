@@ -7,6 +7,11 @@
     font-family: 'Raleway';
 }
 
+html{
+  position: relative;
+  min-height: 100%;
+}
+
 body{
   padding-bottom: 218px;
 }
@@ -26,6 +31,7 @@ a{
 
 /* header */
 header {
+  padding-left: 55px;
     height: 80px;
     padding-bottom: 50px;    
 }
@@ -36,7 +42,7 @@ header {
     padding-top: 53px;
 }
 
-.contenu-header {
+nav {
   float: right;
   width: 480px;
   height: 80px;
@@ -49,14 +55,17 @@ ul{
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
-  
+  box-sizing: border-box;
 }
+
 
 .head >li{
   padding: 50px 24px 0 27px; 
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
-.contenu-header li>a:hover{
+.head > a:hover{
   border-top: 10px blue solid;
   padding: 50px 24px 0 27px;
 }
@@ -181,33 +190,38 @@ button{
   
 
   .icon_filtre{
-    width: 53px;
-    height: 53px;
+    
     background-color: #DEEBFF;
     line-height: 16px;
-    border-radius: 50%;
+    color:#0065FC;
+
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
-    color:#0065FC;
+    border-radius: 50px;
+    margin: -2px;
+
   }
 
   .bulle1{
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    transform: scale(1);
     width: 193px;
     height: 47px;
     margin-right: 25px;
     background-color:white;
-    border: 3px solid #F2F2F2;
-    border-radius: 30px;
-    display: flex;
     flex-direction: row;
     align-items: baseline;
   }
   
   .bulle2{
     width: 150px;
-    height: 50px;
+    height: 47px;
     margin-right: 25px;
     background-color:white;
     border: 3px solid #F2F2F2;
@@ -219,7 +233,7 @@ button{
   
   .bulle3{
     width: 183px;
-    height: 50px;
+    height: 47px;
     margin-right: 25px;
     background-color:white;
     border: 3px solid #F2F2F2;
@@ -231,7 +245,7 @@ button{
 
   .bulle4{
     width: 243px;
-    height: 50px;
+    height: 47px;
     background-color:white;
     border: 3px solid #F2F2F2;
     border-radius: 30px;
@@ -270,7 +284,7 @@ button{
     flex-direction: column;
   }
   
-  .prices{
+  .prices1{
     width: 176px;
     height: 145px;
     padding-top: 13px;
@@ -321,7 +335,12 @@ button{
   font-weight: bold;
 }
   
+.fa-star{
+  color: #F2F2F2;
+}
+
 /* Logement Partie 2 */
+
 .popular {
   width:420px;
   height: 625px;
@@ -383,6 +402,11 @@ justify-content: space-between;
   color:#0065FC;
 }
 
+.prices2{
+padding: 18px 47px 12px 20px;
+line-height: normal;
+font-size: 12px;
+}
 
 /* Section Acitivés */
 
@@ -439,7 +463,7 @@ justify-content: space-between;
   filter: drop-shadow(4px 5px 2px #a9a9ac);
 }
 
-.case1{
+.case-1{
   width: 302px;
   height: 235px;
   margin-bottom: 43px;
@@ -451,14 +475,14 @@ justify-content: space-between;
   padding-left: 20px;
   padding-top: 23px;
 }
-.case2{
+.case-2{
   width: 302px;
   height: 166px;
   background-color: white;
   border-radius: 20px;
 }
 
-.case3{
+.case-3{
   width: 302px;
   height: 195px;
   margin-bottom: 41px;
@@ -467,7 +491,7 @@ justify-content: space-between;
   filter: drop-shadow(4px 5px 2px #a9a9ac);
 }
 
-.case4{
+.case-4{
   width: 302px;
   height: 208px;
   background-color: white;
@@ -508,19 +532,19 @@ footer {
     background-color: #F2F2F2;
     width: 100vw;
     height: 218px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    margin: 0 auto;
+    bottom:0px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position:absolute; 
 }
 
 .bloc-footer {
     width: 1070px;
     padding-top: 50px;
     padding-left: 50px;
-    
 }
 
 .liste {
@@ -530,4 +554,12 @@ footer {
 
 .liste li{
     padding-top: 15px;
+}
+
+
+/*écrans la taille inférieure à 780px*/
+@media screen and (max-width: 481px){
+main{
+  flex-flow: column wrap;
+}
 }
