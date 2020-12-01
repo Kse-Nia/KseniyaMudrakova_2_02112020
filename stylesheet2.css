@@ -1,8 +1,8 @@
 /*écrans la taille inférieure à 780px*/
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 500px) {
   header {
     height: 90px;
-    width: 100%;
+    width: auto;
   }
 
   .head {
@@ -20,5 +20,10 @@
   }
   .sign {
     width: 50vw;
+  }
+
+  footer {
+    width: auto;
+    height: 486 px;
   }
 }
