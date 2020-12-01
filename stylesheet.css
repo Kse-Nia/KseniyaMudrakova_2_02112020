@@ -20,6 +20,7 @@ main{
   overflow: scroll;
   margin-left: 55px;
   padding-bottom: 60px;
+  box-sizing: border-box;
   overflow: hidden;
   display: block;
 }
@@ -66,7 +67,7 @@ ul{
   text-align: -webkit-match-parent;
 }
 
-.head > a:hover{
+.head>a:hover{
   border-top: 10px blue solid;
   padding: 50px 24px 0 27px;
 }
@@ -142,36 +143,11 @@ button{
     padding: 15px 20px 15px;
 }
 
-/* info */
-.info{
-  width: 100vw;
-  height: 24px;
- margin-top: 37px;
- display: flex;
- flex-direction: row;
-}
-
-.icon_info{
-    width: 24px;
-    height: 24px;
-    margin-right: 12px;
-    border-radius: 50%;
-    border: 1px solid #F2F2F2;
-    color:#0065FC;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.info>p{
-  vertical-align: middle;
-}
-
 /* barre de filtration */
 
 .filtration{
   width: 930px;
-  margin: 20px 0 37px;
+  margin: 30px 0 37px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -203,7 +179,6 @@ button{
     justify-content: center;
     border-radius: 50px;
     margin: -2px;
-
   }
 
   .bulle1{
@@ -255,7 +230,31 @@ button{
     align-items: baseline;
   }
 
-  
+ /* info */
+.info{
+  width: 100vw;
+  height: 24px;
+ margin-top: 37px;
+ display: flex;
+ flex-direction: row;
+}
+
+.icon_info{
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    border-radius: 50%;
+    border: 1px solid #F2F2F2;
+    color:#0065FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info>p{
+  vertical-align: middle;
+} 
+
 /* Hébergement Partie 1 */
 
 .logement{
@@ -483,7 +482,7 @@ font-size: 12px;
   border-radius: 20px;
 }
 
-.case3{
+.case-3{
   width: 302px;
   height: 195px;
   margin-bottom: 41px;
@@ -492,7 +491,7 @@ font-size: 12px;
   filter: drop-shadow(4px 5px 2px #a9a9ac);
 }
 
-.case4{
+.case-4{
   width: 302px;
   height: 208px;
   background-color: white;
