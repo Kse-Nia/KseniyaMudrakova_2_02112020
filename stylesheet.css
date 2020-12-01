@@ -48,6 +48,7 @@ nav {
   height: 80px;
   box-sizing: border-box;
   margin-right: 77px;
+  display: flex;
 }
 
 ul{
@@ -482,7 +483,7 @@ font-size: 12px;
   border-radius: 20px;
 }
 
-.case-3{
+.case3{
   width: 302px;
   height: 195px;
   margin-bottom: 41px;
@@ -491,7 +492,7 @@ font-size: 12px;
   filter: drop-shadow(4px 5px 2px #a9a9ac);
 }
 
-.case-4{
+.case4{
   width: 302px;
   height: 208px;
   background-color: white;
@@ -554,12 +555,4 @@ footer {
 
 .liste li{
     padding-top: 15px;
-}
-
-
-/*écrans la taille inférieure à 780px*/
-@media screen and (max-width: 481px){
-main{
-  flex-flow: column wrap;
-}
 }
