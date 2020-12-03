@@ -1,5 +1,5 @@
 /*écrans la taille inférieure à 780px*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   main {
     width: auto;
     margin: 0;
@@ -8,6 +8,48 @@
   header {
     width: auto;
     height: 132px;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  nav {
+    width: auto;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .head {
+    width: auto;
+    flex-flow: row wrap-reverse;
+    align-self: flex-end;
+  }
+
+  .sign a:hover {
+    border: none;
+    float: right;
+  }
+
+  .head a:hover {
+    border-bottom: 3px #0065fc solid;
+    border-top: none;
+    color: #0065fc;
+  }
+  .logo {
+    padding-top: 30px;
+    padding-left: 20px;
+    margin: 0;
+    float: left;
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .hebergement {
+    padding: 36px 65px 35px 25px;
+    font-size: 1rem;
   }
 
   .search {
@@ -16,7 +58,7 @@
 
   .search {
     width: auto;
-    padding: 35px 20px 38px;
+    padding: 0 20px 38px;
   }
   form {
     width: auto;
@@ -43,18 +85,6 @@
     flex-wrap: wrap;
   }
 
-  nav {
-    width: auto;
-    flex-direction: row;
-  }
-
-  nav ul {
-  }
-
-  .head a:hover {
-    border-bottom: 3px #0065fc solid;
-    color: #0065fc;
-  }
   .logement {
     width: auto;
     flex-direction: column;

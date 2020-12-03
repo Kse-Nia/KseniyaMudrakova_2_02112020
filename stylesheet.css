@@ -48,21 +48,20 @@ nav {
   width: 480px;
   height: 80px;
   box-sizing: border-box;
-  margin-right: 77px;
+  margin-right: 55px;
   display: flex;
 }
 
 ul {
+  height: 68px;
   display: flex;
   flex-direction: row;
   list-style: none;
 }
 
 .head li {
-  padding-top: 50px;
-  width: 162px;
   height: 68px;
-  display: inline;
+  display: flex;
 }
 
 ul a{
@@ -72,7 +71,9 @@ ul a{
 .head a {
   text-decoration: none;
   text-align: center;
-  padding: 47px 24px 0 0;
+  padding-top: 50px;
+  padding-left: 28px;
+  padding-right: 22px;
 
 }
 
@@ -80,6 +81,11 @@ ul a{
   border-top: 3px #0065FC solid;
   color: #0065FC;
 
+}
+
+.sign{
+  font-weight: bold;
+  color: #0065FC;
 }
 
 /* titres du site */
@@ -281,7 +287,7 @@ h2 {
 }
 
 .marseille {
-  width: 875px;
+  width: 880px;
   height: 625px;
   padding: 0 40px 0;
   background-color: #F2F2F2;
@@ -357,8 +363,9 @@ h2 {
 /* Logement Partie 2 */
 
 .popular {
-  width: 420px;
+  width: 422px;
   height: 625px;
+  margin-right: 50px;
   background-color: #F2F2F2;
   border-radius: 20px;
 }
@@ -435,6 +442,7 @@ h2 {
 }
 
 .gallery3 {
+  width: 1340px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
