@@ -438,6 +438,10 @@ button {
   font-size: 12px;
 }
 
+.prices2 p{
+  padding-top: 15px;
+}
+
 .prices2 .stars{
   padding-top: 45px;
 }
