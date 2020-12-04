@@ -5,6 +5,12 @@
     width: auto;
   }
 
+  main {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* header */
   header {
     width: auto;
     min-height: 132px;
@@ -15,12 +21,6 @@
     width: auto;
     flex-direction: row;
     padding: 0;
-  }
-
-  .head {
-    width: auto;
-    flex-flow: row wrap-reverse;
-    align-self: flex-end;
   }
 
   .head li {
@@ -50,6 +50,7 @@
     font-size: 1rem;
   }
 
+  /* searchbar */
   .search {
     width: auto;
   }
@@ -63,17 +64,59 @@
     box-sizing: border-box;
   }
 
-  /* footer */
-  footer {
+  /* parties logements */
+  .logement {
+    width: auto;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    vertical-align: middle;
+  }
+
+  .marseille {
+    width: auto;
+    min-height: 577px;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-color: white;
+    flex: 1;
+  }
+
+  .marseille h2 {
+    padding-top: 25px;
+    padding-left: 20px;
+  }
+
+  .gallery1 {
     width: auto;
     flex-direction: column;
   }
 
+  .gallery2 {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .popular {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  /* footer */
+  footer {
+    flex-direction: column;
+  }
+
   .bloc-footer {
+    width: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     flex: 1;
     text-align: left;
     justify-content: space-between;
+  }
+
+  .bloc-footer h3 {
+    font-size: 1em;
   }
 }

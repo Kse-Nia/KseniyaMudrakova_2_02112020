@@ -92,10 +92,12 @@ ul a{
 
 .hebergement h1 {
   padding-bottom: 16px;
+  font-size: 1.4em;
 }
 
 .hebergement p {
   margin-bottom: 19px;
+  font-size: 1em;
 }
 
 /* Bar de recherche */
@@ -299,10 +301,6 @@ button {
   margin-right: 40px;
 }
 
-.marseille p{
-  padding-left: 40px;
-}
-
 .gallery1 {
   width: 100%;
   height: 430px;
@@ -353,14 +351,14 @@ button {
   height: 145px;
   padding-top: 13px;
   padding-right: 20px;
+  text-align: left;
   display: flex;
   flex-flow: column;
   padding-left: 20px;
 }
 
 .more {
-  padding-top: 45px;
-  padding-bottom: 50px;
+  padding: 45px 0 50px 40px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -479,7 +477,7 @@ button {
   padding-left: 15px;
 }
 
-.casebasse>p {
+.casebasse p {
   padding-top: 23px;
   padding-left: 20px;
 }
@@ -494,7 +492,7 @@ button {
 .casebasse {
   display: flex;
   flex-direction: column;
-  filter: drop-shadow(4px 5px 2px #a9a9ac);
+  filter: drop-shadow(4px 1px 5px #a9a9ac);
 }
 
 .case-1 {
