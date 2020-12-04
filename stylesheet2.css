@@ -1,15 +1,14 @@
-/*écrans la taille inférieure à 780px*/
-@media screen and (max-width: 1280px) {
-  main {
+/*écrans la taille inférieure à 980px*/
+@media screen and (max-width: 980px) {
+  * {
+    box-sizing: border-box;
     width: auto;
-    margin: 0;
   }
 
   header {
     width: auto;
-    height: 132px;
+    min-height: 132px;
     padding: 0;
-    flex-wrap: wrap;
   }
 
   nav {
@@ -24,16 +23,15 @@
     align-self: flex-end;
   }
 
-  .sign a:hover {
-    border: none;
-    float: right;
+  .head li {
+    width: 50%;
   }
-
   .head a:hover {
     border-bottom: 3px #0065fc solid;
     border-top: none;
     color: #0065fc;
   }
+
   .logo {
     padding-top: 30px;
     padding-left: 20px;
@@ -65,69 +63,17 @@
     box-sizing: border-box;
   }
 
-  .filtration {
-    width: auto;
-    padding: 0 27px 0 20px;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .filtration h3 {
-    width: auto;
-    padding: 37px 0 20px 24px;
-    float: left;
-  }
-
-  .bulles {
-    width: auto;
-    height: 175px;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .logement {
-    width: auto;
-    flex-direction: column;
-    flex-flow: wrap-reverse;
-  }
-  .toplist {
-    padding-right: 20px;
-  }
-
-  .popular {
-    border-radius: 0;
-  }
-  .marseille {
-    width: auto;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: white;
-  }
-  .photo_row1 {
-    flex-direction: column;
-  }
-
-  .case_1 {
-    width: auto;
-    margin-bottom: 12px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .gallery3 {
-    width: auto;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
+  /* footer */
   footer {
     width: auto;
-    height: 485px;
     flex-direction: column;
   }
 
   .bloc-footer {
-    padding-top: 45px;
+    padding-top: 50px;
     padding-bottom: 50px;
+    flex: 1;
+    text-align: left;
+    justify-content: space-between;
   }
 }

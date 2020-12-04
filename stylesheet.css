@@ -280,26 +280,29 @@ button {
   flex-direction: row;
 }
 
-.logement,
-h2 {
-  padding: 46px 0 23px;
+.logement h2 {
+  padding: 46px 40px 23px;
   font-size: 22px;
 }
 
 .marseille {
   width: 880px;
   height: 625px;
-  padding: 0 40px 0;
   background-color: #F2F2F2;
   border-radius: 20px;
   margin-right: 40px;
 }
 
+.marseille p{
+  padding-left: 40px;
+}
+
 .gallery1 {
   width: 100%;
   height: 430px;
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
-  align-items: center ;
   flex-direction: column;
 }
 
@@ -555,22 +558,22 @@ h2 {
 
 /* footer */
 footer {
-  background-color: #F2F2F2;
   width: 100vw;
-  height: 218px;
-  margin: 0 auto;
+  min-height: 218px;
   bottom: 0px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
+  background-color: #F2F2F2;
 }
 
 .bloc-footer {
   width: 1070px;
   padding-top: 50px;
   padding-left: 50px;
+  flex: 1;
 }
 
 .liste {
