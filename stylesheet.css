@@ -253,6 +253,7 @@ button {
   width: 100vw;
   height: 24px;
   margin-top: 37px;
+  margin-bottom: 36px;
   display: flex;
   flex-direction: row;
 }
@@ -269,7 +270,12 @@ button {
   justify-content: center;
 }
 
-.info>p {
+.fa-info{
+  height: 10px;
+  align-items: center;
+}
+
+.info p {
   vertical-align: middle;
 }
 
