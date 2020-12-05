@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 * {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 html {
@@ -14,6 +14,7 @@ html {
 
 body {
   padding-bottom: 218px;
+  overflow-x: hidden;
 }
 
 main {
@@ -64,7 +65,7 @@ ul {
   display: flex;
 }
 
-ul a{
+ul a {
   text-align: center;
 }
 
@@ -74,18 +75,17 @@ ul a{
   padding-top: 50px;
   padding-left: 28px;
   padding-right: 22px;
-
+  border-top: 3px white solid;
 }
 
 .head a:hover {
-  border-top: 3px #0065FC solid;
-  color: #0065FC;
-
+  border-top: 3px #0065fc solid;
+  color: #0065fc;
 }
 
-.sign{
+.sign {
   font-weight: bold;
-  color: #0065FC;
+  color: #0065fc;
 }
 
 /* titres du site */
@@ -125,7 +125,7 @@ button {
 
 .city-search {
   width: 235px;
-  border: 2px solid #F2F2F2;
+  border: 2px solid #f2f2f2;
 }
 
 input::placeholder {
@@ -136,7 +136,7 @@ input::placeholder {
 }
 
 button {
-  background-color: #0065FC;
+  background-color: #0065fc;
   color: white;
   width: 133px;
   height: 50px;
@@ -149,7 +149,7 @@ button {
   height: 50px;
   display: flex;
   align-items: center;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   color: black;
   border-radius: 20px 0 0 20px;
 }
@@ -173,7 +173,7 @@ button {
   padding-right: 33px;
 }
 
-.bulles{
+.bulles {
   display: flex;
   flex-direction: row;
 }
@@ -185,12 +185,10 @@ button {
   align-items: baseline;
 }
 
-
 .icon_filtre {
-
-  background-color: #DEEBFF;
+  background-color: #deebff;
   line-height: 16px;
-  color: #0065FC;
+  color: #0065fc;
 
   width: 50px;
   height: 50px;
@@ -204,7 +202,7 @@ button {
 .bulle1 {
   display: flex;
   align-items: center;
-  border: 2px solid #F2F2F2;
+  border: 2px solid #f2f2f2;
   border-radius: 50px;
   transform: scale(1);
   width: 193px;
@@ -220,7 +218,7 @@ button {
   height: 47px;
   margin-right: 25px;
   background-color: white;
-  border: 3px solid #F2F2F2;
+  border: 3px solid #f2f2f2;
   border-radius: 30px;
   display: flex;
   flex-direction: row;
@@ -232,7 +230,7 @@ button {
   height: 47px;
   margin-right: 25px;
   background-color: white;
-  border: 3px solid #F2F2F2;
+  border: 3px solid #f2f2f2;
   border-radius: 30px;
   display: flex;
   flex-direction: row;
@@ -243,7 +241,7 @@ button {
   width: 243px;
   height: 47px;
   background-color: white;
-  border: 3px solid #F2F2F2;
+  border: 3px solid #f2f2f2;
   border-radius: 30px;
   display: flex;
   flex-direction: row;
@@ -265,14 +263,14 @@ button {
   height: 24px;
   margin-right: 12px;
   border-radius: 50%;
-  border: 1px solid #F2F2F2;
-  color: #0065FC;
+  border: 1px solid #f2f2f2;
+  color: #0065fc;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.fa-info{
+.fa-info {
   height: 10px;
   align-items: center;
 }
@@ -296,7 +294,7 @@ button {
 .marseille {
   width: 880px;
   height: 625px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 20px;
   margin-right: 40px;
 }
@@ -338,7 +336,7 @@ button {
   font-size: 12px;
 }
 
-.case_1>img {
+.case_1 > img {
   width: 235px;
   height: 115px;
   padding: 5px 5px 0;
@@ -364,7 +362,7 @@ button {
 }
 
 .fa-star {
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 /* Logement Partie 2 */
@@ -373,11 +371,11 @@ button {
   width: 422px;
   height: 625px;
   margin-right: 50px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 20px;
 }
 
-.toplist>h2 {
+.toplist > h2 {
   padding: 46px 119px 26px 37px;
 }
 
@@ -414,7 +412,7 @@ button {
   filter: drop-shadow(4px 1px 5px #a9a9ac);
 }
 
-.case2>img {
+.case2 > img {
   width: 127px;
   height: 134px;
   padding: 5px;
@@ -427,8 +425,8 @@ button {
   flex-direction: row;
 }
 
-#blue {
-  color: #0065FC;
+.blue {
+  color: #0065fc;
 }
 
 .prices2 {
@@ -438,11 +436,11 @@ button {
   font-size: 12px;
 }
 
-.prices2 p{
+.prices2 p {
   padding-top: 15px;
 }
 
-.prices2 .stars{
+.prices2 .stars {
   padding-top: 45px;
 }
 /* Section Acitivés */
@@ -451,8 +449,8 @@ button {
   padding-top: 65px;
 }
 
-.activity>h3 {
-  padding-bottgit pusom: 28px;
+.activity > h3 {
+  padding-bottom: 28px;
 }
 
 .gallery3 {
@@ -477,6 +475,9 @@ button {
   filter: drop-shadow(4px 1px 5px #a9a9ac);
   display: flex;
   flex-direction: column;
+}
+
+.casehaute:hover {
 }
 
 .casehaute p {
@@ -577,14 +578,12 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .bloc-footer {
-  width: 1070px;
   padding-top: 50px;
   padding-left: 50px;
-  flex: 1;
 }
 
 .liste {
