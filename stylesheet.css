@@ -336,6 +336,9 @@ button {
   font-size: 12px;
 }
 
+.case_1:hover {
+  cursor: pointer;
+}
 .case_1 > img {
   width: 235px;
   height: 115px;
@@ -412,6 +415,10 @@ button {
   filter: drop-shadow(4px 1px 5px #a9a9ac);
 }
 
+.case2:hover {
+  cursor: pointer;
+}
+
 .case2 > img {
   width: 127px;
   height: 134px;
@@ -478,6 +485,7 @@ button {
 }
 
 .casehaute:hover {
+  cursor: pointer;
 }
 
 .casehaute p {
@@ -511,6 +519,10 @@ button {
   border-radius: 20px;
 }
 
+.case-1:hover {
+  cursor: pointer;
+}
+
 .titre_case {
   padding-left: 20px;
   padding-top: 23px;
@@ -523,6 +535,10 @@ button {
   border-radius: 20px;
 }
 
+.case-2:hover {
+  cursor: pointer;
+}
+
 .case-3 {
   width: 302px;
   height: 195px;
@@ -532,6 +548,10 @@ button {
   filter: drop-shadow(4px 5px 2px #a9a9ac);
 }
 
+.case-3:hover {
+  cursor: pointer;
+}
+
 .case-4 {
   width: 302px;
   height: 208px;
@@ -539,12 +559,19 @@ button {
   border-radius: 20px;
   filter: drop-shadow(4px 5px 2px #a9a9ac);
 }
+.case-4:hover {
+  cursor: pointer;
+}
 
 .picbasse1 {
   width: 302px;
   height: 180px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
+}
+
+.picbasse1:hover {
+  cursor: pointer;
 }
 
 .picbasse2 {
