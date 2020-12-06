@@ -211,6 +211,15 @@ button {
   background-color: white;
   flex-direction: row;
   align-items: baseline;
+  transform: scale(1);
+}
+
+.bulle1:hover,
+.bulle2:hover,
+.bulle3:hover,
+.bulle4:hover {
+  transition-duration: 800ms;
+  background-color: #deebff;
 }
 
 .bulle2 {
