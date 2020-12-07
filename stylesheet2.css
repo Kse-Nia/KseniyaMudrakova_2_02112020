@@ -1,5 +1,5 @@
 /*écrans la taille inférieure à 980px*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 900px) {
   * {
     box-sizing: border-box;
     width: auto;
@@ -8,18 +8,21 @@
   main {
     padding: 0;
     margin: 0;
+    overflow: visible;
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   /* header */
   header {
     width: 100vh;
     padding: 0;
-  }
-
-  nav {
-    width: auto;
-    flex-direction: row;
-    padding: 0;
+    display: flex;
+    flex-flow: row wrap-reverse;
   }
 
   .head li {
@@ -63,74 +66,73 @@
   }
 
   /* Partie logement */
+  #house {
+    margin-bottom: 60px;
+  }
+  /* Logement Populaire */
   .logement {
-    width: auto;
+    width: 100vh;
     flex-direction: column-reverse;
-    flex-wrap: wrap-reverse;
-  }
-
-  .marseille {
-    width: auto;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
     flex-wrap: wrap;
-  }
-
-  .marseille h2 {
-    padding-top: 25px;
-    padding-left: 20px;
-  }
-
-  .gallery1 {
-    width: auto;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .gallery2 {
-    width: auto;
-    flex-direction: column;
   }
 
   .popular {
+    width: 100vh;
+  }
+
+  .toplist {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .chart-line {
+    float: right;
+  }
+
+  .gallery2 {
+    width: 100vh;
     flex-direction: column;
-    align-items: center;
-    margin: 0;
+    justify-content: center;
+  }
+
+  /* Hébergement Marseille */
+
+  .marseille {
+    background-color: white;
+    flex-direction: row;
+  }
+  .gallery1 {
+    width: 100vh;
+    flex-direction: column;
   }
 
   .photo_row1 {
-    display: flex;
-    align-items: center;
-  }
-
-  /* Partie populaire */
-  .activity {
-    flex-wrap: wrap;
+    width: 100vh;
     flex-direction: column;
   }
 
+  .photo_row2 {
+    width: 100vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Section Acitivés*/
   .gallery3 {
-    align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
   }
-
-  /* Partie activités */
-
   /* footer */
   footer {
-    box-sizing: border-box;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 30px;
+    padding: 50px 0 50px 30px;
     box-sizing: border-box;
   }
 
+  .wrap {
+    flex-direction: column;
+    width: 100vh;
+  }
   .bloc-footer {
     box-sizing: border-box;
     width: auto;
@@ -142,6 +144,7 @@
 
   .bloc-footer h3 {
     padding-bottom: 20px;
+    margin-top: 10px;
   }
 
   .bloc-footer li {
