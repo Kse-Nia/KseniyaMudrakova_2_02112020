@@ -8,12 +8,10 @@
 }
 
 html {
-  position: relative;
   min-height: 100%;
 }
 
 body {
-  padding-bottom: 218px;
   overflow-x: hidden;
 }
 
@@ -608,13 +606,10 @@ button {
 footer {
   width: 100vw;
   min-height: 218px;
-  bottom: 0px;
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: absolute;
   background-color: #f2f2f2;
 }
 
