@@ -1,5 +1,5 @@
 /*écrans la taille inférieure à 980px*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
   * {
     box-sizing: border-box;
     width: auto;
