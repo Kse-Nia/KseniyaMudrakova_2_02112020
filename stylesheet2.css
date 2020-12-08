@@ -1,8 +1,11 @@
 /*écrans la taille inférieure à 980px*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   * {
     box-sizing: border-box;
     width: auto;
+  }
+  body{
+    overflow-x: hidden;
   }
 
   main {
@@ -10,6 +13,7 @@
     margin: 0;
     overflow: visible;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   img {
@@ -19,10 +23,10 @@
 
   /* header */
   header {
-    width: 100vh;
+    width: 100vw;
     padding: 0;
     display: flex;
-    flex-flow: row wrap-reverse;
+    flex-flow: row wrap;
   }
 
   .head li {
@@ -45,6 +49,23 @@
     padding: 36px 65px 35px 25px;
     font-size: 1rem;
   }
+
+  /* Filtres */
+  .filtration{
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .bulles{
+    flex-wrap: wrap;
+  }
+
+  .bulle1, .bulle2, .bulle3, .bulle4{
+    padding-top: 10px;
+    flex-direction: row;
+    align-items: center;
+  } 
 
   /* searchbar */
   .search {
@@ -69,20 +90,21 @@
   #house {
     margin-bottom: 60px;
   }
+
   /* Logement Populaire */
+  .popular {
+    width: 100vw;
+    box-sizing: border-box;
+  }
+
   .logement {
-    width: 100vh;
+    width: 100vw;
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
 
-  .popular {
-    width: 100vh;
-  }
-
   .toplist {
     flex-direction: row;
-    justify-content: flex-start;
   }
 
   .chart-line {
@@ -90,11 +112,22 @@
   }
 
   .gallery2 {
-    width: 100vh;
+    width: 100vw;
     flex-direction: column;
-    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 
+  .photo_row3 {
+    width: 100vw;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .case2{
+    min-width: 90%;
+    margin: 0 10% 0;
+  }
   /* Hébergement Marseille */
 
   .marseille {
@@ -104,26 +137,45 @@
   .gallery1 {
     width: 100vh;
     flex-direction: column;
+    align-content: center;
   }
 
   .photo_row1 {
-    width: 100vh;
     flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
   }
 
+  
+
+  .case_1 {
+    
+  }
   .photo_row2 {
-    width: 100vh;
-    flex-direction: column;
-    justify-content: center;
+      flex-direction: column;
+      align-content: center;
+      justify-content: space-between;
+    }
+  
   }
 
   /* Section Acitivés*/
+.activity{
+  width: 100vw;
+  margin-top: 60px;
+}
+
   .gallery3 {
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
   }
+
+
+
   /* footer */
   footer {
+    width: 100vw;
     flex-direction: column;
     padding: 50px 0 50px 30px;
     box-sizing: border-box;
@@ -131,7 +183,7 @@
 
   .wrap {
     flex-direction: column;
-    width: 100vh;
+    width: 100vw;
   }
   .bloc-footer {
     box-sizing: border-box;
