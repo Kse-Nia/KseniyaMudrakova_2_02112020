@@ -46,7 +46,6 @@ nav {
   float: right;
   width: 480px;
   height: 80px;
-  box-sizing: border-box;
   margin-right: 55px;
   display: flex;
 }
@@ -216,7 +215,7 @@ button {
 .bulle2:hover,
 .bulle3:hover,
 .bulle4:hover {
-  transition-duration: 800ms;
+  transition: ease-in 400ms;
   background-color: #deebff;
 }
 

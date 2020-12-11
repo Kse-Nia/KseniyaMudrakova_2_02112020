@@ -1,19 +1,24 @@
 /*écrans la taille inférieure à 980px*/
 @media screen and (max-width: 800px) {
-  * {
+
+  *{
     box-sizing: border-box;
-    width: auto;
   }
+
   body{
+    width: 100vw;
+    height: auto;
     overflow-x: hidden;
   }
 
   main {
-    padding: 0;
-    margin: 0;
-    overflow: visible;
+    height: auto;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   img {
@@ -22,15 +27,41 @@
   }
 
   /* header */
+
   header {
     width: 100vw;
+    height: ;
     padding: 0;
     display: flex;
     flex-flow: row wrap;
   }
 
-  .head li {
+  nav{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 100vw;
+    min-height: 40px;
+  }
+
+  .head{
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+  }
+
+  .head li{
     width: 50%;
+    text-align: center;
+  }
+
+  .sign{
+    position: absolute;
+    text-align: end;
+    top: 30px;
+    right: 0;
+    border-bottom: none;
   }
   .head a:hover {
     border-bottom: 3px #0065fc solid;
@@ -45,8 +76,13 @@
     float: left;
   }
 
+  nav{
+    display: flex;
+    flex-direction: row;
+  }
   .hebergement {
-    padding: 36px 65px 35px 25px;
+    flex-direction: column;
+    margin: 36px 65px 35px 25px;
     font-size: 1rem;
   }
 
@@ -93,8 +129,9 @@
 
   /* Logement Populaire */
   .popular {
+    padding: 0;
+    margin: 0;
     width: 100vw;
-    box-sizing: border-box;
   }
 
   .logement {
@@ -105,6 +142,7 @@
 
   .toplist {
     flex-direction: row;
+  
   }
 
   .chart-line {
@@ -146,11 +184,7 @@
     justify-content: space-between;
   }
 
-  
 
-  .case_1 {
-    
-  }
   .photo_row2 {
       flex-direction: column;
       align-content: center;
@@ -162,7 +196,12 @@
   /* Section Acitivés*/
 .activity{
   width: 100vw;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.activity h3{
+  padding-top: 60px;
 }
 
   .gallery3 {
@@ -186,9 +225,9 @@
     width: 100vw;
   }
   .bloc-footer {
-    box-sizing: border-box;
-    width: auto;
+    width: 100vw;
     padding: 0;
+    margin: 0;
     text-align: left;
     justify-content: space-between;
     flex-direction: column;
