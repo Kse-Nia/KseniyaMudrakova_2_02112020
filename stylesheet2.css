@@ -30,10 +30,11 @@
 
   header {
     width: 100vw;
-    height: ;
+    height: auto;
     padding: 0;
     display: flex;
     flex-flow: row wrap;
+    box-sizing: border-box²²²²²²²²²²²²²²²;
   }
 
   nav{
@@ -77,8 +78,7 @@
   }
 
   nav{
-    display: flex;
-    flex-direction: row;
+    
   }
   .hebergement {
     flex-direction: column;
@@ -214,7 +214,8 @@
 
   /* footer */
   footer {
-    width: 100vw;
+    min-height: 485px;
+    width: 100%;
     flex-direction: column;
     padding: 50px 0 50px 30px;
     box-sizing: border-box;
@@ -222,6 +223,7 @@
 
   .wrap {
     flex-direction: column;
+    justify-content: space-evenly;
     width: 100vw;
   }
   .bloc-footer {
@@ -234,8 +236,8 @@
   }
 
   .bloc-footer h3 {
-    padding-bottom: 20px;
-    margin-top: 10px;
+    padding-bottom: 5%;
+    margin-top: 5%;
   }
 
   .bloc-footer li {
