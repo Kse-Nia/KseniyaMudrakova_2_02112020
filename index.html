@@ -16,12 +16,16 @@
 
 <body>
     <header>
-        <img class="logo" src="./Media/logo/Reservia@3x.png" alt="logo du site" />
+        <div class="logo">
+            <img src="./Media/logo/Reservia@3x.png" alt="logo du site" />
+        </div>
         <nav>
             <ul class="head">
                 <li><a href="#house">Hébergements</a></li>
                 <li><a href="#ancre">Activités</a></li>
-                <li><a class="sign" href="#">S'inscrire</a></li>
+                <span>
+                    <li><a class="sign" href="#">S'inscrire</a></li>
+                </span>
             </ul>
         </nav>
     </header>
@@ -43,8 +47,12 @@
                     </div>
                     <input class="city-search" type="search" placeholder="Marseille, France" />
                     <button type="submit">
-                        <i class="fas fa-search"></i>
-                        Rechercher
+                        <span>
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>
+                            Rechercher
+                        </span>
                     </button>
                 </form>
             </div>

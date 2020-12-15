@@ -33,47 +33,68 @@
     padding: 0;
     display: flex;
     flex-flow: row wrap;
-    box-sizing: border-box²²²²²²²²²²²²²²²;
+    box-sizing: border-box;
   }
 
   nav {
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
-    width: 100vw;
     min-height: 40px;
+    display: inline;
   }
 
   .head {
     list-style: none;
     display: flex;
-    margin-top: 25px;
+    align-items: center;
+  }
+
+  .head ul {
+    padding: 0;
+    border-bottom: 2px solid #f2f2f2;
+    width: 100%;
   }
 
   .head li {
-    width: 50%;
+    flex-basis: 50%;
     text-align: center;
   }
 
   .sign {
     position: absolute;
     text-align: end;
-    top: 30px;
     right: 0;
     border-bottom: none;
   }
+
+  .head a {
+    padding-bottom: 5%;
+    border-bottom: 3px white solid;
+  }
+
   .head a:hover {
+    padding-bottom: 5%;
     border-bottom: 3px #0065fc solid;
     border-top: none;
     color: #0065fc;
   }
 
   .logo {
-    padding-top: 30px;
+    padding: 35px;
+    width: 45%;
     padding-left: 20px;
     margin: 0;
     float: left;
+    display: inline;
+  }
+  .logo img {
+    padding-top: 0;
+    width: 100%;
   }
 
   /* Titres entête */
@@ -208,6 +229,9 @@
 }
 .gallery1 {
   width: 100vh;
+  min-height: 1440px;
+  padding: 0;
+  margin: 0;
   flex-direction: column;
   align-content: center;
 }
@@ -227,6 +251,7 @@
 /* Section Acitivés*/
 .activity {
   width: 100vw;
+  height: 50hw;
   display: flex;
   flex-direction: column;
   justify-content: center;

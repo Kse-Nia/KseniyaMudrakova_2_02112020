@@ -29,14 +29,14 @@ a {
   color: black;
 }
 
-/* header */
+/* Header */
 header {
   padding-left: 55px;
   height: 80px;
   padding-bottom: 50px;
 }
 
-.logo {
+.logo img {
   float: left;
   width: 100px;
   padding-top: 53px;
