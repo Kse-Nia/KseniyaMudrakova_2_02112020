@@ -1,5 +1,5 @@
 /*écrans la taille inférieure à 980px*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
   * {
     box-sizing: border-box;
   }
@@ -63,10 +63,12 @@
   .head li {
     flex-basis: 50%;
     text-align: center;
+    flex-direction: column-reverse;
   }
 
   .sign {
-    position: absolute;
+    order: 3;
+    flex-direction: column-reverse;
     text-align: end;
     right: 0;
     border-bottom: none;
@@ -161,9 +163,6 @@
 }
 
 /* Partie logement */
-#house {
-  margin-bottom: 60px;
-}
 
 /* PArtie info */
 
@@ -183,63 +182,64 @@
 
 .logement {
   width: 100vw;
+  padding: 0;
   flex-direction: column-reverse;
   flex-wrap: wrap;
 }
 
 .toplist {
-  margin: 5%;
-  flex-direction: row;
-}
-
-.toplist h2 {
-  margin: 0;
-  padding: 0;
-}
-.fa-chart-line {
-  float: right;
-  height: auto;
-  padding-left: 30%;
+  margin-right: 5%;
 }
 
 .gallery2 {
   width: 100vw;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.photo_row3 {
+  width: 100vw;
+  padding: 0 5% 0;
   flex-direction: column;
   align-content: center;
   align-items: center;
 }
 
-.photo_row3 {
-  width: 100vw;
-  flex-direction: column;
-  align-content: center;
-}
-
 .case2 {
-  min-width: 90%;
-  margin: 0 10% 0;
+  width: 95%;
   justify-content: center;
   align-content: center;
 }
+
 /* Hébergement Marseille */
 
 .marseille {
+  width: 100vw;
+  height: auto;
   background-color: white;
   flex-direction: row;
 }
 .gallery1 {
-  width: 100vh;
+  width: 100vw;
+  height: auto;
   min-height: 1440px;
   padding: 0;
   margin: 0;
-  flex-direction: column;
-  align-content: center;
+  flex-flow: row wrap;
 }
 
 .photo_row1 {
+  width: 100%;
   flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.case_1 {
+  width: 90%;
+  margin: 0 10% 0;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .photo_row2 {
@@ -251,19 +251,23 @@
 /* Section Acitivés*/
 .activity {
   width: 100vw;
-  height: 50hw;
-  display: flex;
+  height: auto;
+  padding: 0;
+  margin: 0;
   flex-direction: column;
   justify-content: center;
 }
-.activity h3 {
+
+#ancre {
   padding-top: 60px;
+  padding-left: 5%;
 }
 
 .gallery3 {
   width: 100vw;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 /* footer */
