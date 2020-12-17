@@ -29,7 +29,7 @@ a {
   color: black;
 }
 
-/* Header */
+/* ---------------- Header ---------------- */
 header {
   padding-left: 55px;
   height: 80px;
@@ -86,7 +86,7 @@ ul a {
   color: #0065fc;
 }
 
-/* titres du site */
+/* ---------------- Titres du site ---------------- */
 
 .hebergement h1 {
   padding-bottom: 16px;
@@ -98,7 +98,7 @@ ul a {
   font-size: 1em;
 }
 
-/* Bar de recherche */
+/* ---------------- Bar de recherche ---------------- */
 
 .wrap {
   width: 421px;
@@ -156,7 +156,7 @@ button {
   padding: 15px 20px 15px;
 }
 
-/* barre de filtration */
+/* ---------------- Barre de filtration ---------------- */
 
 .filtration {
   width: 930px;
@@ -255,7 +255,7 @@ button {
   align-items: baseline;
 }
 
-/* info */
+/* ---------------- Info ---------------- */
 .info {
   width: 100vw;
   height: 24px;
@@ -286,7 +286,7 @@ button {
   vertical-align: middle;
 }
 
-/* Hébergement Partie 1 */
+/* ---------------- Hébergement Partie 1 ---------------- */
 
 .logement {
   display: flex;
@@ -375,7 +375,7 @@ button {
   color: #f2f2f2;
 }
 
-/* Logement Partie 2 */
+/* ---------------- Logement Partie 2 ---------------- */
 
 .popular {
   width: 422px;
@@ -457,7 +457,7 @@ button {
 .prices2 .stars {
   padding-top: 45px;
 }
-/* Section Acitivés */
+/* ---------------- Section Acitivés ---------------- */
 
 .activity {
   padding-top: 65px;
@@ -602,7 +602,7 @@ button {
   object-fit: cover;
 }
 
-/* footer */
+/* ---------------- Footer ---------------- */
 footer {
   width: 100vw;
   min-height: 218px;

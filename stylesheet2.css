@@ -1,4 +1,5 @@
-/*écrans la taille inférieure à 980px*/
+/* Ecrans la taille inférieure à 980px */
+
 @media screen and (max-width: 980px) {
   * {
     box-sizing: border-box;
@@ -25,7 +26,7 @@
     height: auto;
   }
 
-  /* header */
+  /* ---------------- header ---------------- */
 
   header {
     width: 100vw;
@@ -37,14 +38,13 @@
   }
 
   nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: "Raleway", sans-serif;
     min-height: 40px;
+    font-family: "Raleway", sans-serif;
+    justify-content: space-around;
+    align-items: center;
     display: inline;
   }
 
@@ -87,19 +87,18 @@
   }
 
   .logo {
-    padding: 35px;
-    width: 45%;
-    padding-left: 20px;
+    width: 40%;
+    height: auto;
+    padding: 5% 5% 5%;
     margin: 0;
     float: left;
-    display: inline;
   }
   .logo img {
     padding-top: 0;
     width: 100%;
   }
 
-  /* Titres entête */
+  /* ---------------- Titres entête ---------------- */
 
   .hebergement {
     flex-direction: column;
@@ -108,7 +107,7 @@
     font-size: 1rem;
   }
 
-  /* searchbar */
+  /* ---------------- searchbar ---------------- */
   .search {
     width: auto;
   }
@@ -128,7 +127,7 @@
     border-radius: 10px;
   }
 
-  /* Filtres */
+  /* ---------------- Filtres ---------------- */
 
   .filtration {
     padding: 0 5% 0;
@@ -162,7 +161,7 @@
   transform: scale(1);
 }
 
-/* Partie logement */
+/*  ----------------  Partie logement  ----------------  */
 
 /* PArtie info */
 
@@ -171,12 +170,13 @@
   padding: 0 5% 0;
 }
 
-/* Logement Populaire */
+/* ----------------  Logement Populaire ----------------  */
 
 .popular {
+  width: 100vw;
+  height: auto;
   padding: 0;
   margin: 0;
-  width: 100vw;
   border-radius: 0;
 }
 
@@ -188,7 +188,18 @@
 }
 
 .toplist {
-  margin-right: 5%;
+  margin-right: 0;
+  width: 100%;
+  height: auto;
+}
+
+.toplist h2 {
+  width: 100vw;
+  padding: 5%;
+}
+
+.fa-chart-line {
+  padding-right: 10%;
 }
 
 .gallery2 {
@@ -199,7 +210,6 @@
 }
 
 .photo_row3 {
-  width: 100vw;
   padding: 0 5% 0;
   flex-direction: column;
   align-content: center;
@@ -207,12 +217,24 @@
 }
 
 .case2 {
-  width: 95%;
   justify-content: center;
   align-content: center;
 }
 
-/* Hébergement Marseille */
+.case2 img {
+  width: 40%;
+  align-items: baseline;
+  margin: auto;
+  position: sticky;
+  left: 0;
+}
+
+.prices2 {
+  position: sticky;
+  right: 0;
+}
+
+/* ---------------- Hébergement Marseille ---------------- */
 
 .marseille {
   width: 100vw;
@@ -220,6 +242,12 @@
   background-color: white;
   flex-direction: row;
 }
+
+.marseille h2 {
+  width: 100vw;
+  padding: 10% 5% 5%;
+}
+
 .gallery1 {
   width: 100vw;
   height: auto;
@@ -230,25 +258,33 @@
 }
 
 .photo_row1 {
-  width: 100%;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+.photo_row2 {
+  height: auto;
+  width: 100vw;
+  padding-top: 5%;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
 }
 
 .case_1 {
-  width: 90%;
   margin: 0 10% 0;
   flex-direction: column;
   justify-content: center;
 }
 
-.photo_row2 {
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
+.more {
+  padding: 10% 5% 5%;
+  font-size: 1.25em;
 }
-
-/* Section Acitivés*/
+/* ---------------- Section Acitivés ---------------- */
 .activity {
   width: 100vw;
   height: auto;
@@ -259,23 +295,73 @@
 }
 
 #ancre {
-  padding-top: 60px;
+  padding-top: 5%;
   padding-left: 5%;
+  font-size: 1.25em;
 }
 
 .gallery3 {
   width: 100vw;
+  margin: 0;
+  padding-bottom: 5%;
+  height: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-/* footer */
+.casehaute {
+  margin-bottom: 10%;
+}
+
+.pichaute {
+  width: 100%;
+}
+
+.casebasse {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.activ_marseille {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.casebasse {
+  width: 90%;
+  margin-bottom: 5%;
+  height: auto;
+}
+
+.case-1,
+.case-2,
+.case-3,
+.case-4 {
+  width: 90%;
+  justify-content: space-between;
+}
+
+.picbasse1,
+.picbasse2,
+.picbasse3,
+.picbasse4 {
+  width: 100%;
+}
+.case-2 {
+  width: 90%;
+}
+
+/* ---------------- footer ----------------*/
+
 footer {
   min-height: 485px;
   width: 100%;
   flex-direction: column;
-  padding: 50px 0 50px 30px;
+  padding: 0% 0 5% 3%;
   margin-top: 20px;
 }
 
