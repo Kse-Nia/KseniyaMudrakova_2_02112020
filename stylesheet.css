@@ -347,7 +347,8 @@ button {
 .case_1:hover {
   cursor: pointer;
 }
-.case_1 > img {
+
+.case_1 img {
   width: 235px;
   height: 115px;
   padding: 5px 5px 0;
