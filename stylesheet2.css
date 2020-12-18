@@ -1,6 +1,6 @@
 /* Ecrans la taille inférieure à 980px */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1300px) {
   * {
     box-sizing: border-box;
   }
@@ -69,11 +69,14 @@
   }
 
   .sign {
-    order: 3;
     flex-direction: column-reverse;
     text-align: end;
-    right: 0;
     border-bottom: none;
+  }
+
+  .sign a {
+    border-bottom: none;
+    font-size: 1.25em;
   }
 
   .head a {
@@ -91,7 +94,7 @@
   .logo {
     width: 40%;
     height: auto;
-    padding: 5% 5% 5%;
+    padding: 5% 5% 1%;
     margin: 0;
     float: left;
   }
@@ -110,13 +113,10 @@
   }
 
   /* ---------------- searchbar ---------------- */
-  .search {
-    width: auto;
-  }
 
   .search {
     width: auto;
-    padding: 0 20px 38px;
+    padding: 0 5% 10%;
     align-items: baseline;
   }
   form {
@@ -140,7 +140,8 @@
 
   .filtration h3 {
     display: block;
-    margin: 0 10% 5%;
+    padding: 0;
+    margin-bottom: 2%;
     font-weight: bold;
   }
 }
@@ -206,29 +207,32 @@
 
 .gallery2 {
   width: 100vw;
-  margin: 0;
+  height: 100vh;
   padding: 0;
-  flex-direction: column;
+  margin: 0;
+  flex-flow: row wrap;
 }
 
 .photo_row3 {
-  padding: 0 5% 0;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
   flex-direction: column;
-  align-content: center;
   align-items: center;
 }
 
 .case2 {
+  width: 90%;
+  height: auto;
+  margin: 0 10% 10%;
   justify-content: center;
-  align-content: center;
+  flex-direction: column;
 }
 
 .case2 img {
-  width: 40%;
-  align-items: baseline;
-  margin: auto;
-  position: sticky;
-  left: 0;
+  width: 100%;
+  padding: 5px 5px 0;
+  border-radius: 20px 20px 0 0;
 }
 
 .prices2 {
@@ -268,7 +272,6 @@
 }
 
 .photo_row2 {
-  height: auto;
   width: 100vw;
   padding-top: 5%;
   margin: 0;
@@ -277,9 +280,17 @@
 }
 
 .case_1 {
-  margin: 0 10% 0;
-  flex-direction: column;
+  width: 90%;
+  height: auto;
+  margin: 0 10% 10%;
   justify-content: center;
+  flex-direction: column;
+}
+
+.case_1 img {
+  width: 100%;
+  padding: 5px 5px 0;
+  border-radius: 20px 20px 0 0;
 }
 
 .more {
@@ -297,8 +308,7 @@
 }
 
 #ancre {
-  padding-top: 5%;
-  padding-left: 5%;
+  padding: 0 5% 5%;
   font-size: 1.25em;
 }
 
@@ -313,7 +323,11 @@
 }
 
 .casehaute {
-  margin-bottom: 10%;
+  width: 90%;
+  margin-bottom: 5%;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .pichaute {
@@ -321,6 +335,8 @@
 }
 
 .casebasse {
+  margin-bottom: 5%;
+  height: auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -331,12 +347,6 @@
   height: auto;
   justify-content: center;
   align-items: center;
-}
-
-.casebasse {
-  width: 90%;
-  margin-bottom: 5%;
-  height: auto;
 }
 
 .case-1,
@@ -352,9 +362,6 @@
 .picbasse3,
 .picbasse4 {
   width: 100%;
-}
-.case-2 {
-  width: 90%;
 }
 
 /* ---------------- footer ----------------*/
