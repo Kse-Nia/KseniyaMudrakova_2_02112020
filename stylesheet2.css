@@ -24,6 +24,7 @@
   img {
     max-width: 100%;
     height: auto;
+    padding-bottom: -10%;
   }
 
   /* ---------------- header ---------------- */
@@ -57,9 +58,8 @@
   }
 
   .head ul {
-    padding: 0;
-    border-bottom: 2px solid #f2f2f2;
     width: 100%;
+    padding: 0;
   }
 
   .head li {
@@ -74,8 +74,8 @@
     border-bottom: none;
   }
 
-  .sign a {
-    border-bottom: none;
+  span .sign a:hover {
+    border-bottom: 3px white solid;
     font-size: 1.25em;
   }
 
@@ -112,7 +112,7 @@
     font-size: 1rem;
   }
 
-  /* ---------------- searchbar ---------------- */
+  /* ---------------- Recherche ---------------- */
 
   .search {
     width: auto;
@@ -127,6 +127,10 @@
     width: 50px;
     height: 50px;
     border-radius: 10px;
+  }
+
+  .text-btn {
+    display: none;
   }
 
   /* ---------------- Filtres ---------------- */
