@@ -1,6 +1,6 @@
 /* Ecrans la taille inférieure à 980px */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
   * {
     box-sizing: border-box;
   }
@@ -79,12 +79,12 @@
     flex-direction: column-reverse;
   }
 
-  .head a {
+  .menu {
     padding-bottom: 5%;
     border-bottom: 3px white solid;
   }
 
-  .head a:hover {
+  .menu:hover {
     padding-bottom: 5%;
     border-bottom: 3px #0065fc solid;
     border-top: none;
@@ -93,6 +93,12 @@
 
   .sign a {
     text-align: end;
+    border-bottom: 3px white solid;
+  }
+
+  .sign a:hover {
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
   }
 
   /* ---------------- Titres entête ---------------- */
@@ -235,6 +241,7 @@
 }
 
 .case2 img {
+  height: auto;
   padding: 5px;
   border-radius: 20px 0 0 20px;
 }
@@ -242,8 +249,6 @@
 .prices2 {
   position: sticky;
   right: 0;
-  padding-bottom: 0;
-  margin: 0;
 }
 
 /* ---------------- Hébergement Marseille ---------------- */

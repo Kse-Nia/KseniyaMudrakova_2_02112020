@@ -29,28 +29,32 @@ a {
   color: black;
 }
 
+h4 {
+  font-size: 1.2em;
+}
 /* ---------------- Header ---------------- */
 header {
+  width: 100%;
+  height: 120px;
   padding-left: 55px;
-  height: 80px;
   padding-bottom: 50px;
 }
 
-.logo img {
+.logo {
   float: left;
   width: 100px;
   padding-top: 53px;
 }
 
 nav {
-  float: right;
   width: 480px;
   height: 80px;
-  margin-right: 55px;
+  float: right;
   display: flex;
 }
 
-ul {
+.head {
+  width: auto;
   height: 68px;
   display: flex;
   flex-direction: row;
@@ -66,7 +70,7 @@ ul a {
   text-align: center;
 }
 
-.head a {
+.menu {
   text-decoration: none;
   text-align: center;
   padding-top: 50px;
@@ -74,8 +78,7 @@ ul a {
   padding-right: 22px;
   border-top: 3px white solid;
 }
-
-.head a:hover {
+.menu:hover {
   border-top: 3px #0065fc solid;
   color: #0065fc;
 }
@@ -83,6 +86,19 @@ ul a {
 .sign a {
   font-weight: bold;
   color: #0065fc;
+  padding-top: 50px;
+  padding-left: 28px;
+  padding-right: 22px;
+  border-top: 3px white solid;
+}
+
+.sign a:hover {
+  font-weight: bold;
+  color: #0065fc;
+  padding-top: 50px;
+  padding-left: 28px;
+  padding-right: 22px;
+  border-top: 3px #0065fc solid;
 }
 
 /* ---------------- Titres du site ---------------- */
@@ -300,7 +316,7 @@ button {
 
 .logement {
   display: flex;
-  flex-wrap: wrap;
+
   flex-direction: row;
 }
 
@@ -310,7 +326,7 @@ button {
 }
 
 .marseille {
-  width: 880px;
+  width: 55%;
   height: 625px;
   background-color: #f2f2f2;
   border-radius: 20px;
@@ -327,7 +343,8 @@ button {
 }
 
 .photo_row1 {
-  width: 800px;
+  width: 100%;
+  height: auto;
   padding-bottom: 30px;
   display: flex;
   flex-direction: row;
@@ -335,18 +352,18 @@ button {
 }
 
 .photo_row2 {
-  width: 800px;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .case_1 {
-  width: 246px;
-  height: 200px;
+  width: 30%;
+  height: au;
   background-color: white;
   border-radius: 20px;
-
   filter: drop-shadow(4px 5px 2px #a9a9ac);
   display: flex;
   flex-direction: column;
@@ -359,17 +376,16 @@ button {
 }
 
 .case_1 img {
-  width: 235px;
+  width: 95%;
   height: 115px;
-  padding: 5px 5px 0;
+  padding: 2%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
 
 .prices1 {
-  width: 176px;
-  height: 145px;
-  padding-top: 13px;
+  width: 100%;
+  height: auto;
   padding-right: 20px;
   text-align: left;
   display: flex;
@@ -390,26 +406,27 @@ button {
 /* ---------------- Logement Partie 2 ---------------- */
 
 .popular {
-  width: 422px;
+  width: 45%;
   height: 625px;
   margin-right: 50px;
   background-color: #f2f2f2;
   border-radius: 20px;
 }
 
-.toplist > h2 {
+.toplist h2 {
   padding: 46px 119px 26px 37px;
 }
 
 .toplist {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
 
 .gallery2 {
-  height: 545px;
   width: 100%;
+  height: 545px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -417,15 +434,16 @@ button {
 }
 
 .photo_row3 {
-  width: auto;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .case2 {
-  width: 342px;
+  width: 90%;
   height: 145px;
   background-color: white;
   border-radius: 20px;
@@ -439,16 +457,11 @@ button {
 }
 
 .case2 > img {
-  width: 127px;
+  width: 30%;
   height: 134px;
   padding: 5px;
   object-fit: cover;
   border-radius: 20px 0 0 20px;
-}
-
-.stars {
-  display: flex;
-  flex-direction: row;
 }
 
 .blue {
@@ -456,19 +469,22 @@ button {
 }
 
 .prices2 {
-  padding: 18px 47px 12px 20px;
-  margin-bottom: 44px;
+  width: 100%;
+  padding: 2% 0 0 2%;
   line-height: normal;
   font-size: 12px;
 }
 
 .prices2 p {
-  padding-top: 15px;
+  padding-top: 2%;
 }
 
-.prices2 .stars {
-  padding-top: 45px;
+.stars2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8%;
 }
+
 /* ---------------- Section Acitivés ---------------- */
 
 .activity {
@@ -483,8 +499,9 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 25px;
+  margin-right: 50px;
 }
 
 .activ_marseille {
@@ -616,7 +633,7 @@ button {
 
 /* ---------------- Footer ---------------- */
 footer {
-  width: 100vw;
+  width: 100%;
   min-height: 218px;
   display: flex;
   flex-direction: row;
