@@ -172,7 +172,7 @@ button {
 }
 
 .fa-search {
-  visibility: hidden;
+  display: none;
 }
 
 .text-btn p {
@@ -457,7 +457,7 @@ button {
 }
 
 .case2 > img {
-  width: 30%;
+  width: 25%;
   height: 134px;
   padding: 5px;
   object-fit: cover;
