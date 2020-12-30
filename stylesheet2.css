@@ -1,4 +1,4 @@
-/* Ecrans la taille inférieure à 980px */
+/* Ecrans la taille inférieure à 1200px */
 
 @media screen and (max-width: 1200px) {
   * {
@@ -112,10 +112,14 @@
 
   /* ---------------- Recherche ---------------- */
 
+  .wrap {
+    width: 100%;
+  }
   .search {
     width: auto;
     padding: 0 5% 10%;
     align-items: baseline;
+    justify-content: center;
   }
   form {
     width: auto;
@@ -233,7 +237,7 @@
 
   .case2 {
     width: 90%;
-    min-height: 135px;
+
     margin: 0 10% 10%;
     justify-content: center;
     flex-direction: row;
@@ -247,8 +251,7 @@
   }
 
   .prices2 {
-    position: sticky;
-    right: 0;
+    height: auto;
   }
 
   /* ---------------- Hébergement Marseille ---------------- */
@@ -397,7 +400,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
-    padding: 0;
+    padding-left: 5%;
   }
   .bloc-footer {
     width: 100%;

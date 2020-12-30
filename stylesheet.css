@@ -326,7 +326,7 @@ button {
 
 .marseille {
   width: 55%;
-  min-height: 625px;
+  height: 630px;
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-right: 40px;
@@ -402,8 +402,8 @@ button {
 /* ---------------- Logement Partie 2 ---------------- */
 
 .popular {
-  width: 45%;
-  height: 625px;
+  width: 420px;
+  height: 630px;
   margin-right: 50px;
   background-color: #f2f2f2;
   border-radius: 20px;
@@ -430,7 +430,7 @@ button {
 }
 
 .case2 {
-  width: 90%;
+  width: 350px;
   height: auto;
   background-color: white;
   border-radius: 20px;
