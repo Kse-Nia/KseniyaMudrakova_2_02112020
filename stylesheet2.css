@@ -132,7 +132,7 @@
   }
 
   .fa-search {
-    visibility: visible;
+    display: block;
   }
 
   /* ---------------- Filtres ---------------- */

@@ -316,7 +316,6 @@ button {
 
 .logement {
   display: flex;
-
   flex-direction: row;
 }
 
@@ -327,7 +326,7 @@ button {
 
 .marseille {
   width: 55%;
-  height: 625px;
+  min-height: 625px;
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-right: 40px;
@@ -335,7 +334,6 @@ button {
 }
 
 .gallery1 {
-  height: 430px;
   padding-left: 40px;
   padding-right: 40px;
   display: flex;
@@ -361,14 +359,11 @@ button {
 
 .case_1 {
   width: 30%;
-  height: au;
+  height: auto;
   background-color: white;
   border-radius: 20px;
   filter: drop-shadow(4px 5px 2px #a9a9ac);
-  display: flex;
-  flex-direction: column;
-  line-height: 2;
-  font-size: 12px;
+  display: block;
 }
 
 .case_1:hover {
@@ -384,13 +379,14 @@ button {
 }
 
 .prices1 {
-  width: 100%;
   height: auto;
-  padding-right: 20px;
+  padding: 0 20px 0;
   text-align: left;
   display: flex;
   flex-flow: column;
-  padding-left: 20px;
+  flex-direction: column;
+  line-height: 2;
+  font-size: 12px;
 }
 
 .more {
@@ -424,15 +420,6 @@ button {
   align-items: baseline;
 }
 
-.gallery2 {
-  width: 100%;
-  height: 545px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 .photo_row3 {
   width: 100%;
   height: 500px;
@@ -444,7 +431,7 @@ button {
 
 .case2 {
   width: 90%;
-  height: 145px;
+  height: auto;
   background-color: white;
   border-radius: 20px;
   box-sizing: content-box;
@@ -502,12 +489,6 @@ button {
   justify-content: space-between;
   margin-top: 25px;
   margin-right: 50px;
-}
-
-.activ_marseille {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .casehaute {
@@ -597,6 +578,12 @@ button {
 }
 .case-4:hover {
   cursor: pointer;
+}
+
+.activ_marseille {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .picbasse1 {
