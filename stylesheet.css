@@ -17,7 +17,7 @@ body {
 
 main {
   overflow: scroll;
-  margin-left: 55px;
+  margin: 0 55px 0;
   padding-bottom: 60px;
   box-sizing: border-box;
   overflow: hidden;
@@ -185,7 +185,7 @@ button {
 /* ---------------- Barre de filtration ---------------- */
 
 .filtration {
-  width: 930px;
+  width: 100%;
   margin: 30px 0 37px;
   display: flex;
   flex-direction: row;
@@ -200,6 +200,7 @@ button {
 .bulles {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .filtername {
@@ -325,17 +326,17 @@ button {
 }
 
 .marseille {
-  width: 55%;
+  width: 60%;
   height: 630px;
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-right: 40px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .gallery1 {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 0 40px 20px 40px;
   display: flex;
   flex-direction: column;
 }
@@ -362,7 +363,7 @@ button {
   height: auto;
   background-color: white;
   border-radius: 20px;
-  filter: drop-shadow(4px 5px 2px #a9a9ac);
+  filter: drop-shadow(0px 1px 5px #a9a9ac);
   display: block;
 }
 
@@ -390,7 +391,9 @@ button {
 }
 
 .more {
-  padding: 45px 0 50px 40px;
+  width: 100%;
+  height: auto;
+  margin-left: 40px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -402,9 +405,9 @@ button {
 /* ---------------- Logement Partie 2 ---------------- */
 
 .popular {
-  width: 420px;
+  width: 40%;
   height: 630px;
-  margin-right: 50px;
+
   background-color: #f2f2f2;
   border-radius: 20px;
 }
@@ -423,6 +426,7 @@ button {
 .photo_row3 {
   width: 100%;
   height: 500px;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -430,20 +434,19 @@ button {
 }
 
 .case2 {
-  width: 350px;
   height: auto;
   background-color: white;
   border-radius: 20px;
-  box-sizing: content-box;
+  margin: 0 5% 0;
   display: flex;
-  filter: drop-shadow(4px 1px 5px #a9a9ac);
+  filter: drop-shadow(0px 1px 5px #a9a9ac);
 }
 
 .case2:hover {
   cursor: pointer;
 }
 
-.case2 > img {
+.case2 img {
   width: 25%;
   height: 134px;
   padding: 5px;
@@ -475,30 +478,42 @@ button {
 /* ---------------- Section Acitivés ---------------- */
 
 .activity {
-  padding-top: 65px;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .activity h3 {
+  width: 100%;
+  height: 40px;
   padding-bottom: 28px;
 }
 
 .gallery3 {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 25px;
-  margin-right: 50px;
+  flex-wrap: wrap;
 }
 
 .casehaute {
-  width: 302px;
+  width: 20%;
   height: 445px;
   border-radius: 20px;
   background-color: white;
-  filter: drop-shadow(4px 1px 5px #a9a9ac);
+  filter: drop-shadow(0px 1px 5px #a9a9ac);
   display: flex;
   flex-direction: column;
+}
+
+.pichaute {
+  width: 100%;
+  height: 390px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .casehaute:hover {
@@ -510,26 +525,20 @@ button {
   padding-left: 15px;
 }
 
+.casebasse {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 1px 5px #a9a9ac);
+}
+
 .casebasse p {
   padding-top: 23px;
   padding-left: 20px;
 }
 
-.pichaute {
-  width: 303px;
-  height: 390px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
-
-.casebasse {
-  display: flex;
-  flex-direction: column;
-  filter: drop-shadow(4px 1px 5px #a9a9ac);
-}
-
 .case-1 {
-  width: 302px;
+  width: 100%;
   height: 235px;
   margin-bottom: 43px;
   background-color: white;
@@ -546,7 +555,7 @@ button {
 }
 
 .case-2 {
-  width: 302px;
+  width: 100%;
   height: 166px;
   background-color: white;
   border-radius: 20px;
@@ -557,12 +566,12 @@ button {
 }
 
 .case-3 {
-  width: 302px;
+  width: 100%;
   height: 195px;
   margin-bottom: 41px;
   background-color: white;
   border-radius: 20px;
-  filter: drop-shadow(4px 5px 2px #a9a9ac);
+  filter: drop-shadow(0px 1px 5px #a9a9ac);
 }
 
 .case-3:hover {
@@ -574,7 +583,7 @@ button {
   height: 208px;
   background-color: white;
   border-radius: 20px;
-  filter: drop-shadow(4px 5px 2px #a9a9ac);
+  filter: drop-shadow(0px 1px 5px #a9a9ac);
 }
 .case-4:hover {
   cursor: pointer;
@@ -587,7 +596,7 @@ button {
 }
 
 .picbasse1 {
-  width: 302px;
+  width: 100%;
   height: 180px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
@@ -598,21 +607,21 @@ button {
 }
 
 .picbasse2 {
-  width: 302px;
+  width: 100%;
   height: 110px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 
 .picbasse3 {
-  width: 302px;
+  width: 100%;
   height: 139px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 
 .picbasse4 {
-  width: 302px;
+  width: 100%;
   height: 153px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
@@ -620,7 +629,7 @@ button {
 
 /* ---------------- Footer ---------------- */
 footer {
-  width: 100%;
+  width: 100vw;
   min-height: 218px;
   display: flex;
   flex-direction: row;
@@ -630,16 +639,14 @@ footer {
 }
 
 .wrap2 {
-  width: 1030px;
+  width: 100%;
   height: auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
 }
 
 .bloc-footer {
-  padding-top: 50px;
-  padding-left: 50px;
+  padding: 50px 50px 0;
 }
 
 .liste {

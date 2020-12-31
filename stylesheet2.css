@@ -1,6 +1,6 @@
-/* Ecrans la taille inférieure à 1200px */
+/* Ecrans la taille inférieure à 900px */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   * {
     box-sizing: border-box;
   }
@@ -38,7 +38,7 @@
   }
 
   .logo {
-    width: 40%;
+    width: 35%;
     height: auto;
     padding: 5% 5% 1%;
     margin: 0;
@@ -81,7 +81,9 @@
 
   .menu {
     padding-bottom: 5%;
-    border-bottom: 3px white solid;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2em;
   }
 
   .menu:hover {
@@ -93,6 +95,7 @@
 
   .sign a {
     text-align: end;
+    font-size: 1.2em;
     border-bottom: 3px white solid;
   }
 
@@ -114,13 +117,20 @@
 
   .wrap {
     width: 100%;
+    display: block;
   }
   .search {
     width: auto;
-    padding: 0 5% 10%;
+    padding: 0 5% 0;
     align-items: baseline;
     justify-content: center;
   }
+
+  .city-search {
+    width: 80%;
+    height: 50px;
+  }
+
   form {
     width: auto;
     box-sizing: border-box;
@@ -170,7 +180,7 @@
     align-items: center;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
-    transform: sccaale(1);
+    transform: scale(1);
   }
 
   /*  ----------------  Partie logement  ----------------  */
@@ -237,7 +247,7 @@
 
   .case2 {
     width: 90%;
-
+    min-height: 145px;
     margin: 0 10% 10%;
     justify-content: center;
     flex-direction: row;
@@ -354,6 +364,7 @@
   }
 
   .casebasse {
+    width: 100%;
     margin-bottom: 5%;
     height: auto;
     justify-content: center;
@@ -423,5 +434,15 @@
 
   .liste li {
     padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+  h4 {
+    font-size: 0.7em;
+  }
+
+  .marseille {
+    height: auto;
   }
 }
