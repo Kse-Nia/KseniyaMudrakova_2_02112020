@@ -393,7 +393,7 @@ button {
 .more {
   width: 100%;
   height: auto;
-  margin-left: 40px;
+  margin: 5% 0;
   font-size: 16px;
   font-weight: bold;
 }
@@ -407,13 +407,13 @@ button {
 .popular {
   width: 40%;
   height: 630px;
-
   background-color: #f2f2f2;
   border-radius: 20px;
 }
 
 .toplist h2 {
-  padding: 46px 119px 26px 37px;
+  padding: 46px 40px 23px;
+  font-size: 22px;
 }
 
 .toplist {
@@ -426,7 +426,6 @@ button {
 .photo_row3 {
   width: 100%;
   height: 500px;
-  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -459,20 +458,24 @@ button {
 }
 
 .prices2 {
+  position: relative;
+  display: inline;
   width: 100%;
-  padding: 2% 0 0 2%;
+  padding: 2%;
   line-height: normal;
   font-size: 12px;
 }
 
 .prices2 p {
   padding-top: 2%;
+  font-size: 12px;
 }
 
 .stars2 {
+  position: absolute;
+  bottom: 10%;
   display: flex;
   flex-direction: row;
-  padding-top: 8%;
 }
 
 /* ---------------- Section Acitivés ---------------- */
@@ -501,7 +504,7 @@ button {
 
 .casehaute {
   width: 20%;
-  height: 445px;
+  min-height: 445px;
   border-radius: 20px;
   background-color: white;
   filter: drop-shadow(0px 1px 5px #a9a9ac);
@@ -567,7 +570,7 @@ button {
 
 .case-3 {
   width: 100%;
-  height: 195px;
+  min-height: 195px;
   margin-bottom: 41px;
   background-color: white;
   border-radius: 20px;

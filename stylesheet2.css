@@ -94,12 +94,14 @@
   }
 
   .sign a {
+    padding-right: 15%;
     text-align: end;
     font-size: 1.2em;
     border-bottom: 3px white solid;
   }
 
   .sign a:hover {
+    padding-right: 15%;
     border-top: 3px white solid;
     border-bottom: 3px white solid;
   }
@@ -247,7 +249,7 @@
 
   .case2 {
     width: 90%;
-    min-height: 145px;
+    height: auto;
     margin: 0 10% 10%;
     justify-content: center;
     flex-direction: row;
@@ -320,6 +322,7 @@
 
   .more {
     padding: 5%;
+    margin: 0;
     font-size: 1.25em;
   }
   /* ---------------- Section Acitivés ---------------- */
