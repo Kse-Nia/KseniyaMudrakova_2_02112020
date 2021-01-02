@@ -17,7 +17,7 @@ body {
 
 main {
   overflow: scroll;
-  margin: 0 55px 0;
+  margin: 0 50px 0;
   padding-bottom: 60px;
   box-sizing: border-box;
   overflow: hidden;
@@ -363,7 +363,7 @@ button {
   height: auto;
   background-color: white;
   border-radius: 20px;
-  filter: drop-shadow(0px 1px 5px #a9a9ac);
+  filter: drop-shadow(0px 1px 3px #a9a9ac);
   display: block;
 }
 
@@ -393,7 +393,7 @@ button {
 .more {
   width: 100%;
   height: auto;
-  margin: 5% 0;
+  margin: 3% 0;
   font-size: 16px;
   font-weight: bold;
 }
@@ -411,16 +411,16 @@ button {
   border-radius: 20px;
 }
 
-.toplist h2 {
-  padding: 46px 40px 23px;
-  font-size: 22px;
-}
-
 .toplist {
   width: 100%;
+  font-size: 22px;
   display: flex;
   flex-direction: row;
   align-items: baseline;
+}
+
+.toplist.line {
+  padding-left: 40%;
 }
 
 .photo_row3 {
@@ -438,7 +438,7 @@ button {
   border-radius: 20px;
   margin: 0 5% 0;
   display: flex;
-  filter: drop-shadow(0px 1px 5px #a9a9ac);
+  filter: drop-shadow(0px 1px 3px #a9a9ac);
 }
 
 .case2:hover {
@@ -503,15 +503,14 @@ button {
 }
 
 .casehaute {
-  width: 20%;
-  min-height: 445px;
+  width: 25%;
+  height: 445px;
   border-radius: 20px;
   background-color: white;
-  filter: drop-shadow(0px 1px 5px #a9a9ac);
+  filter: drop-shadow(0px 1px 3px #a9a9ac);
   display: flex;
   flex-direction: column;
 }
-
 .pichaute {
   width: 100%;
   height: 390px;
@@ -532,7 +531,7 @@ button {
   width: 20%;
   display: flex;
   flex-direction: column;
-  filter: drop-shadow(0px 1px 5px #a9a9ac);
+  filter: drop-shadow(0px 1px 3px #a9a9ac);
 }
 
 .casebasse p {
@@ -553,8 +552,8 @@ button {
 }
 
 .titre_case {
-  padding-left: 20px;
-  padding-top: 23px;
+  height: auto;
+  padding: 2% 0 0 2%;
 }
 
 .case-2 {
@@ -570,11 +569,11 @@ button {
 
 .case-3 {
   width: 100%;
-  min-height: 195px;
+  height: 195px;
   margin-bottom: 41px;
   background-color: white;
   border-radius: 20px;
-  filter: drop-shadow(0px 1px 5px #a9a9ac);
+  filter: drop-shadow(0px 1px 3px #a9a9ac);
 }
 
 .case-3:hover {
@@ -586,7 +585,7 @@ button {
   height: 208px;
   background-color: white;
   border-radius: 20px;
-  filter: drop-shadow(0px 1px 5px #a9a9ac);
+  filter: drop-shadow(0px 1px 3px #a9a9ac);
 }
 .case-4:hover {
   cursor: pointer;
