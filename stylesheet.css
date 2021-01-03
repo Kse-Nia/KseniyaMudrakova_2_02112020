@@ -29,6 +29,9 @@ a {
   color: black;
 }
 
+h2 {
+  font-size: 1.4em;
+}
 h4 {
   font-size: 1.2em;
 }
@@ -322,7 +325,6 @@ button {
 
 .logement h2 {
   padding: 46px 40px 23px;
-  font-size: 22px;
 }
 
 .marseille {
@@ -413,13 +415,12 @@ button {
 
 .toplist {
   width: 100%;
-  font-size: 22px;
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
 
-.toplist.line {
+.toplist.chart {
   padding-left: 40%;
 }
 
