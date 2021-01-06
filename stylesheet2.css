@@ -75,13 +75,15 @@
     flex-basis: 50%;
     text-align: center;
     flex-direction: column-reverse;
+    height: auto;
   }
 
   .menu {
     padding-bottom: 5%;
-    border: none;
+    border-bottom: 3px white solid;
+    border-top: none;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   .menu:hover {
