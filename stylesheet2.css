@@ -115,12 +115,7 @@
   /* ---------------- Recherche ---------------- */
   .wrap {
     width: 100%;
-    display: block;
-  }
-  .search {
-    width: auto;
-    padding: 0 5% 0;
-    align-items: baseline;
+    display: flex;
     justify-content: center;
   }
 
@@ -139,12 +134,15 @@
     border-radius: 10px;
   }
 
-  .text-btn {
+  .search2 {
     display: none;
   }
 
-  .fa-search {
-    display: block;
+  .search1 {
+    width: 90%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
   }
 
   /* ---------------- Filtres ---------------- */
@@ -186,8 +184,6 @@
   /* PArtie info */
 
   .info {
-    height: auto;
-    margin: 0 0 10%;
     padding: 0 5% 0;
   }
 
@@ -367,7 +363,6 @@
     width: 100%;
     flex-direction: column;
     padding: 0% 0 5% 3%;
-    margin-top: 20px;
   }
 
   .wrap2 {
