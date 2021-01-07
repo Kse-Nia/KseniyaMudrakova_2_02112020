@@ -80,25 +80,24 @@
   }
 
   .menu {
-    padding-bottom: 5%;
-    border-top: none;
+    padding: 5% 1% 2%;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.3em;
     border-top: 3px transparent solid;
     border-bottom: 3px transparent solid;
   }
 
   .menu:hover {
-    padding-bottom: 5%;
+    padding: 5% 1% 2%;
     border-bottom: 3px #0065fc solid;
     border-top: 3px transparent solid;
     color: #0065fc;
   }
 
   .sign a {
-    padding-right: 15%;
+    padding: 5% 10% 10%;
     text-align: end;
-    font-size: 1.2em;
+    font-size: 1.3em;
     border-bottom: 3px transparent solid;
   }
 
@@ -209,11 +208,6 @@
     border-radius: 0;
     display: flex;
     flex-direction: column;
-  }
-
-  .fa-chart-line {
-    float: right;
-    height: auto;
   }
 
   .gallery2 {

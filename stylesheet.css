@@ -299,7 +299,7 @@ button {
 }
 
 .logement h2 {
-  padding: 46px 40px 23px;
+  padding: 46px 40% 23px 40px;
 }
 
 .marseille {
@@ -379,7 +379,7 @@ button {
   color: #f2f2f2;
 }
 
-/* ---------------- Logement Partie 2 ---------------- */
+/* ---------------- Hébergement Partie  2 ---------------- */
 
 .popular {
   width: 40%;
