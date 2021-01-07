@@ -32,7 +32,6 @@ h2 {
 h4 {
   font-size: 1.2em;
 }
-
 /* ---------------- Header ---------------- */
 header {
   max-width: 100%;
@@ -195,9 +194,6 @@ button {
 
 .filtername {
   padding-left: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
 }
 
 .icon_filtre {
@@ -413,7 +409,6 @@ button {
 }
 
 .case2 {
-  width: 80%;
   height: auto;
   background-color: white;
   border-radius: 20px;
