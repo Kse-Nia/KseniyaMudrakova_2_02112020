@@ -394,9 +394,12 @@ button {
   flex-direction: row;
   align-items: baseline;
 }
+.logement h2 {
+  padding-right: 10%;
+}
 
-.toplist.chart {
-  padding-left: 40%;
+.pop {
+  padding: 0 10% 0 10%;
 }
 
 .photo_row3 {

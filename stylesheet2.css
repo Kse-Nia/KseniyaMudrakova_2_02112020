@@ -1,6 +1,6 @@
-/* Ecrans la taille inférieure à 900px */
+/* Ecrans la taille inférieure à 1150px */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1150px) {
   * {
     box-sizing: border-box;
   }
@@ -200,6 +200,14 @@
     flex-wrap: wrap;
   }
 
+  .logement h2 {
+    padding: 5% 20% 10% 5%;
+    margin: 0;
+  }
+
+  .pop {
+    padding-right: 5%;
+  }
   .popular {
     width: 100%;
     height: auto;
