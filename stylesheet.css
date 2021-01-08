@@ -395,11 +395,11 @@ button {
   align-items: baseline;
 }
 .logement h2 {
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
 .pop {
-  padding: 0 10% 0 10%;
+  padding: 0 10% 0 30%;
 }
 
 .photo_row3 {
@@ -412,6 +412,7 @@ button {
 }
 
 .case2 {
+  width: 90%;
   height: auto;
   background-color: white;
   border-radius: 20px;
