@@ -32,6 +32,7 @@ h2 {
 h4 {
   font-size: 1.2em;
 }
+
 /* ---------------- Header ---------------- */
 header {
   max-width: 100%;
@@ -394,7 +395,8 @@ button {
   flex-direction: row;
   align-items: baseline;
 }
-.logement h2 {
+.toplist h2 {
+  width: 70%;
   padding-right: 5%;
 }
 
