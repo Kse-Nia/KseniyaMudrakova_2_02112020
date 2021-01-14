@@ -100,12 +100,12 @@ ul a {
 
 .hebergement h1 {
   padding-bottom: 16px;
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 .hebergement p {
   margin-bottom: 19px;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 /* ---------------- Recherche ---------------- */
@@ -399,7 +399,8 @@ button {
 }
 
 .pop {
-  padding: 0 10% 0 30%;
+  padding: 0 10% 0 10%;
+  font-size: 1.4em;
 }
 
 .photo_row3 {
