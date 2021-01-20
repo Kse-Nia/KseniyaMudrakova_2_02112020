@@ -33,10 +33,6 @@ h4 {
   font-size: 1.2em;
 }
 
-.click {
-  display: inline-block;
-}
-
 /* ---------------- Header ---------------- */
 header {
   max-width: 100%;
@@ -348,6 +344,9 @@ button {
   filter: drop-shadow(0px 1px 3px #a9a9ac);
   display: block;
 }
+.case_1 a {
+  display: block;
+}
 
 .case_1:hover {
   cursor: pointer;
@@ -418,6 +417,10 @@ button {
   align-items: center;
 }
 
+.click {
+  display: block;
+  width: 100%;
+}
 .case2 {
   width: 90%;
   height: auto;
