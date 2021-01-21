@@ -40,17 +40,17 @@ header {
   padding: 0 0 50px 55px;
 }
 
+.logo {
+  float: left;
+  width: 100px;
+  padding-top: 53px;
+}
+
 nav {
   width: 480px;
   height: 80px;
   float: right;
   display: flex;
-}
-
-.logo {
-  float: left;
-  width: 100px;
-  padding-top: 53px;
 }
 
 .head {
